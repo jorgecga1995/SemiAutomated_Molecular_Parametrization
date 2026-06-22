@@ -1,0 +1,88 @@
+Remark line goes here
+MASS
+ss 32.060        2.900
+ca 12.010        0.360
+ha 1.008         0.135
+c  12.010        0.616
+o  16.000        0.434
+cc 12.010        0.360
+cf 12.010        0.360
+
+BOND
+ca-ss  249.80   1.781
+cc-ss  265.80   1.756
+ca-ca  461.10   1.398
+ca-ha  345.80   1.086
+c -ca  345.90   1.491
+c -o   637.70   1.218
+c -cc  371.00   1.468
+cc-cf  513.00   1.366
+cf-ha  342.50   1.088
+ca-cf  361.30   1.476
+
+ANGLE
+ca-ca-ss   61.600     120.060
+c -cc-ss   61.000     121.970
+cf-cc-ss   61.300     121.580   same as ce-cc-ss, penalty score=  0.8
+ca-ss-cc   66.000      89.470
+ca-ca-ha   48.200     119.880
+ca-ca-ca   66.600     120.020
+c -ca-ca   64.300     120.330
+ca-c -o    68.700     122.600
+ca-c -cc   64.100     116.000
+c -cc-cf   63.400     121.570   same as c -cc-ce, penalty score=  0.8
+cc-c -o    69.100     123.930
+cc-cf-ha   50.100     114.950
+ca-cf-cc   62.600     130.880
+ca-ca-cf   64.500     120.820
+ca-cf-ha   47.000     115.130
+o -c -o    77.900     130.250
+
+DIHE
+ha-ca-ca-ss   4   14.500       180.000           2.000
+ca-ca-ca-ss   4   14.500       180.000           2.000
+c -ca-ca-ss   4   14.500       180.000           2.000
+ss-cc-cf-ha   4   16.000       180.000           2.000      same as X -cc-cd-X , penalty score=136.0
+ss-cc-cf-ca   4   16.000       180.000           2.000      same as X -cc-cd-X , penalty score=136.0
+c -cc-ss-ca   2    2.200       180.000           2.000      same as X -c2-ss-X , penalty score=232.0
+cf-cc-ss-ca   2    2.200       180.000           2.000      same as X -c2-ss-X , penalty score=232.0
+ca-ca-ca-ha   4   14.500       180.000           2.000
+ca-ca-ca-ca   4   14.500       180.000           2.000
+o -c -ca-ca   4    4.000       180.000           2.000
+cc-c -ca-ca   4    4.000       180.000           2.000
+c -ca-ca-ca   4   14.500       180.000           2.000
+ha-ca-ca-ha   4   14.500       180.000           2.000
+c -ca-ca-ha   4   14.500       180.000           2.000
+ca-c -cc-ss   4   11.500       180.000           2.000
+ca-c -cc-cf   4   11.500       180.000           2.000
+c -cc-cf-ha   4   16.000       180.000           2.000      same as X -cc-cd-X , penalty score=136.0
+c -cc-cf-ca   4   16.000       180.000           2.000      same as X -cc-cd-X , penalty score=136.0
+o -c -cc-ss   4   11.500       180.000           2.000
+o -c -cc-cf   4   11.500       180.000           2.000
+ca-ca-ss-cc   2    0.800       180.000           2.000
+ca-ca-cf-cc   4    2.800       180.000           2.000      same as X -c2-ca-X , penalty score=237.0
+cf-ca-ca-ha   4   14.500       180.000           2.000
+ca-ca-ca-cf   4   14.500       180.000           2.000
+ca-ca-cf-ha   4    2.800       180.000           2.000      same as X -c2-ca-X , penalty score=237.0
+
+IMPROPER
+ca-ca-ca-ss         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+c -ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-cc-c -o         10.5          180.0         2.0          Using general improper torsional angle  X- X- c- o, penalty score=  6.0)
+c -cf-cc-ss         1.1          180.0         2.0          Using the default value
+ca-cc-cf-ha         1.1          180.0         2.0          Same as X -X -ca-ha, penalty score= 46.8 (use general term))
+ca-ca-ca-cf         1.1          180.0         2.0          Using the default value
+ca-o -c -o          1.1          180.0         2.0          Using general improper torsional angle  X- o- c- o, penalty score=  3.0)
+
+NONBON
+  ss          2.0000  0.2500
+  ca          1.9080  0.0860
+  ha          1.4590  0.0150
+  c           1.9080  0.0860
+  o           1.6612  0.2100
+  cc          1.9080  0.0860
+  cf          1.9080  0.0860
+
+
+

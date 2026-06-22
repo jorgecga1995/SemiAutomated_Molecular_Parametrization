@@ -1,0 +1,2 @@
+1_SSB_c1.log: ETot=-695.1
+1_SSB_c0.log: ETot=-695.159

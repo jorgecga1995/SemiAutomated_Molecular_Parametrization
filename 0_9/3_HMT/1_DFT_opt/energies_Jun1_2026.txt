@@ -1,0 +1,5 @@
+3_HMT_c1.log: ETot=-
+3_HMT_c3.log: ETot=-1379.
+3_HMT_c0.log: ETot=-1
+3_HMT_c5.log: ETot=-1379.5941426
+3_HMT_c2.log: ETot=-1

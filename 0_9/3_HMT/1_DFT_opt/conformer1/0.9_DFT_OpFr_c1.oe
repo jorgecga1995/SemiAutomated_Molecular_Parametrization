@@ -1,0 +1,52 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r16-cp22b at Fri May 15 13:41:20 CDT 2026
+Job ID: 225667.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/0_9/3_HMT/1_DFT_opt/conformer1
+Creating scratch directory: /p/work/jorgecga/tmp/225667.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/225667.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting Psi4 Python script...
+
+Starting optimization from unique_conformer_1.xyz
+Optimizer: Optimization complete!
+Opt Done. Electronic Energy after optimization 0: -1379.61339313 Hartrees
+
+Starting Frequency Calculation
+Warning: thermodynamics relations excluded imaginary frequencies: ['22.3523i']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['18.6515' '31.9120' '46.8127' '64.8070' '79.5696' '93.3824' '102.2387'
+ '129.7621' '131.6134' '169.5537' '211.6141' '241.0221' '253.7747'
+ '261.6164' '292.9376' '307.5134' '332.5659' '378.2968' '399.6490'
+ '412.6579' '465.9354' '494.3327' '528.7658' '555.9185' '565.8935'
+ '588.7486' '622.6995']
+...Frequency calculation finished!
+
+ Warning! Found 1 imaginary frequencies:
+   -22.35 cm^-1
+Imaginary mode displacements have been saved to: 0.9imaginary_mode_displacement_atB97-3c_0.txt
+Optimizer: Optimization complete!
+Opt Done. Electronic Energy after optimization 1: -1379.61352199 Hartrees
+
+Starting Frequency Calculation
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['18.3865' '21.6413' '38.7716' '51.2641' '65.3559' '76.7722' '93.3000'
+ '102.4683' '124.2400' '134.4325' '171.2609' '215.2273' '239.1843'
+ '251.5110' '264.8847' '292.4370' '312.1491' '336.9401' '372.2282'
+ '399.9024' '417.6826' '472.6627' '493.2856' '535.4093' '560.6582'
+ '574.6798' '591.7171' '623.0605']
+...Frequency calculation finished!
+
+ Success! No imaginary frequencies found. The structure is a true minimum.
+
+real	240m39.834s
+user	18480m7.167s
+sys	379m2.907s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/0_9/3_HMT/1_DFT_opt/conformer1 ...
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Fri May 15 17:42:02 CDT 2026
+Exit status: 0
+Running epilogue for job 225667.wheat-r16-sch41
+Job 225667.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/149)

@@ -1,0 +1,3 @@
+
+Gauss15_ABI_c0.log: ETot=-1238.7861483
+Gauss15_ABI_c2.log: ETot=-1238.7742875

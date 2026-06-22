@@ -1,0 +1,722 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+ERROR: No such file or directory on '/p/app/modulefiles/apps/cseinit-noloads'
+ERROR: Unable to locate a modulefile for 'cse/miniforge/latest'
+Job started on wheat-r20-cp4b at Thu May 14 10:24:11 CDT 2026
+Job ID: 224720.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/50_59/51_M10/0_ConformerSearch
+Creating scratch directory: /p/work/jorgecga/tmp/224720.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/224720.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+ERROR: No such file or directory on '/p/app/modulefiles/apps/cseinit-noloads'
+ERROR: Unable to locate a modulefile for 'cse/miniforge/latest'
+Starting RDKit Python script...
+
+Molecule was read successfully!
+RDKit interpreted the overall charge as: 0
+Number of rotatable bonds in the molecule: 5
+SA_score: 7.891477944422627
+Generating isomers...
+Generated 4 stereoisomers.
+Generating conformers for all isomers...
+Isomer (SMILES: [H]OC(=O)/C([H])=C(\[H])c1c([H])c([H])c2c(c1[H])C(C([H])([H])[H])(C([H])([H])[H])C(/C([H])=C(\[H])c1c([H])c([N+](=O)[O-])c([H])c([H])c1[O-])=[N+]2C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.891477944422627
+Isomer (SMILES: [H]OC(=O)/C([H])=C(\[H])c1c([H])c([H])c2c(c1[H])C(C([H])([H])[H])(C([H])([H])[H])C(/C([H])=C(/[H])c1c([H])c([N+](=O)[O-])c([H])c([H])c1[O-])=[N+]2C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.891477944422627
+Isomer (SMILES: [H]OC(=O)/C([H])=C(/[H])c1c([H])c([H])c2c(c1[H])C(C([H])([H])[H])(C([H])([H])[H])C(/C([H])=C(\[H])c1c([H])c([N+](=O)[O-])c([H])c([H])c1[O-])=[N+]2C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.891477944422627
+Isomer (SMILES: [H]OC(=O)/C([H])=C(/[H])c1c([H])c([H])c2c(c1[H])C(C([H])([H])[H])(C([H])([H])[H])C(/C([H])=C(/[H])c1c([H])c([N+](=O)[O-])c([H])c([H])c1[O-])=[N+]2C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.891477944422627
+Generated a total of 324 conformers across all isomers.
+Optimizing conformers with MMFF94...
+Optimization complete.
+
+Conformers Sorted by Energy (Lowest to Highest):
+--------------------------------------------------
+Rank       Conformer ID    Energy (kcal/mol)        
+--------------------------------------------------
+0          130             -6.0350                  
+1          145             -6.0349                  
+2          104             -6.0349                  
+3          99              -6.0349                  
+4          95              -6.0348                  
+5          144             -6.0348                  
+6          146             -6.0348                  
+7          134             -6.0340                  
+8          88              -6.0317                  
+9          148             -6.0075                  
+10         105             -5.9391                  
+11         129             -5.9361                  
+12         117             -5.9347                  
+13         89              -5.9299                  
+14         159             -5.9210                  
+15         124             -5.9198                  
+16         98              -5.8648                  
+17         119             -5.7648                  
+18         147             -5.7644                  
+19         94              -5.7543                  
+20         81              -5.7241                  
+21         91              -5.7241                  
+22         128             -5.7241                  
+23         136             -5.7239                  
+24         113             -5.7236                  
+25         92              -5.7231                  
+26         111             -5.6765                  
+27         86              -5.6453                  
+28         115             -5.4459                  
+29         103             -5.4459                  
+30         156             -5.4459                  
+31         97              -5.4459                  
+32         114             -5.4459                  
+33         90              -5.3980                  
+34         139             -5.3980                  
+35         150             -5.2770                  
+36         93              -5.2733                  
+37         137             -5.2689                  
+38         87              -5.2688                  
+39         143             -5.2677                  
+40         121             -5.2664                  
+41         112             -5.2664                  
+42         153             -5.2663                  
+43         122             -5.2663                  
+44         157             -5.2663                  
+45         126             -5.2663                  
+46         133             -5.2663                  
+47         109             -5.2663                  
+48         116             -5.2661                  
+49         84              -5.2661                  
+50         142             -5.2659                  
+51         161             -5.2659                  
+52         141             -5.2656                  
+53         101             -5.2655                  
+54         85              -5.2638                  
+55         132             -5.2557                  
+56         83              -5.2228                  
+57         140             -5.2228                  
+58         131             -5.2228                  
+59         102             -5.2227                  
+60         82              -5.2217                  
+61         110             -5.2204                  
+62         127             -5.2176                  
+63         160             -5.1740                  
+64         123             -5.1712                  
+65         120             -5.1657                  
+66         100             -5.1630                  
+67         154             -5.1585                  
+68         138             -5.0362                  
+69         96              -4.9915                  
+70         108             -4.9915                  
+71         118             -4.9915                  
+72         151             -4.9702                  
+73         149             -4.9702                  
+74         158             -4.9702                  
+75         125             -4.9702                  
+76         155             -4.9702                  
+77         135             -4.9687                  
+78         152             -4.7881                  
+79         107             -4.6006                  
+80         246             -3.2463                  
+81         248             -3.2463                  
+82         256             -3.2457                  
+83         310             -3.2457                  
+84         244             -3.2451                  
+85         261             -3.2448                  
+86         296             -3.2412                  
+87         255             -3.2409                  
+88         273             -3.2400                  
+89         257             -3.2374                  
+90         275             -3.2348                  
+91         283             -3.2057                  
+92         280             -3.1580                  
+93         322             -3.1573                  
+94         306             -3.0859                  
+95         299             -3.0842                  
+96         300             -2.8705                  
+97         253             -2.8705                  
+98         305             -2.8705                  
+99         321             -2.8705                  
+100        290             -2.8705                  
+101        295             -2.8705                  
+102        271             -2.6437                  
+103        293             -2.3716                  
+104        106             -2.2176                  
+105        298             -0.9539                  
+106        249             -0.9374                  
+107        250             -0.9006                  
+108        309             -0.7773                  
+109        252             -0.7773                  
+110        288             -0.7771                  
+111        262             -0.7765                  
+112        274             -0.7754                  
+113        287             -0.7746                  
+114        243             -0.7729                  
+115        272             -0.7688                  
+116        245             -0.7658                  
+117        291             -0.7633                  
+118        254             -0.4837                  
+119        308             -0.4741                  
+120        264             -0.4698                  
+121        258             -0.4687                  
+122        297             -0.4680                  
+123        277             -0.4665                  
+124        268             -0.4179                  
+125        260             -0.4011                  
+126        270             -0.3977                  
+127        312             -0.3539                  
+128        320             -0.3300                  
+129        313             -0.3300                  
+130        286             -0.3286                  
+131        318             -0.3273                  
+132        304             -0.3107                  
+133        303             -0.3056                  
+134        316             -0.2886                  
+135        301             -0.2648                  
+136        311             -0.2544                  
+137        251             -0.2535                  
+138        292             -0.2118                  
+139        267             -0.2029                  
+140        263             -0.1950                  
+141        294             -0.1905                  
+142        285             -0.1789                  
+143        317             -0.1683                  
+144        314             -0.1683                  
+145        319             -0.1683                  
+146        269             -0.1637                  
+147        276             -0.1629                  
+148        247             -0.1577                  
+149        265             -0.1537                  
+150        307             -0.1289                  
+151        259             -0.1230                  
+152        315             -0.1230                  
+153        281             -0.1189                  
+154        282             -0.1184                  
+155        302             -0.1175                  
+156        279             -0.1166                  
+157        278             -0.0110                  
+158        323             -0.0110                  
+159        266             -0.0110                  
+160        289             -0.0110                  
+161        284             -0.0110                  
+162        51              5.3888                   
+163        3               5.3899                   
+164        53              5.3944                   
+165        74              5.3960                   
+166        47              5.4003                   
+167        7               5.4350                   
+168        76              5.4351                   
+169        73              5.4351                   
+170        11              5.4353                   
+171        8               5.4354                   
+172        46              5.4396                   
+173        44              5.4475                   
+174        54              5.4480                   
+175        43              5.4481                   
+176        20              5.4482                   
+177        33              5.4501                   
+178        62              5.4506                   
+179        17              5.4507                   
+180        68              5.4531                   
+181        39              5.4536                   
+182        70              5.4793                   
+183        64              6.0528                   
+184        10              6.0528                   
+185        5               6.0528                   
+186        60              6.0528                   
+187        71              6.0582                   
+188        56              6.0612                   
+189        42              6.0951                   
+190        36              6.0952                   
+191        16              6.0955                   
+192        22              6.0956                   
+193        57              6.0959                   
+194        55              6.1044                   
+195        19              6.1425                   
+196        31              6.1425                   
+197        24              6.1435                   
+198        78              6.1479                   
+199        63              6.1492                   
+200        38              6.1497                   
+201        238             7.8370                   
+202        226             7.8370                   
+203        223             7.8373                   
+204        213             7.8433                   
+205        219             7.8448                   
+206        203             7.8501                   
+207        215             7.8533                   
+208        200             8.3038                   
+209        229             8.3040                   
+210        194             8.3040                   
+211        209             8.3040                   
+212        193             8.3042                   
+213        214             8.3062                   
+214        180             8.3111                   
+215        220             8.3221                   
+216        187             8.4684                   
+217        80              10.5124                  
+218        32              10.6734                  
+219        171             10.6955                  
+220        176             10.7012                  
+221        195             10.7066                  
+222        204             10.7084                  
+223        175             10.7185                  
+224        240             10.7201                  
+225        172             10.7201                  
+226        221             10.7206                  
+227        183             10.7259                  
+228        163             10.7282                  
+229        169             10.7328                  
+230        241             10.7348                  
+231        210             10.7400                  
+232        218             10.7470                  
+233        216             10.7576                  
+234        162             10.7616                  
+235        168             10.7633                  
+236        192             10.7731                  
+237        189             10.7876                  
+238        6               10.8412                  
+239        75              11.3501                  
+240        61              11.5089                  
+241        14              11.8013                  
+242        79              11.8061                  
+243        2               11.8447                  
+244        58              11.9663                  
+245        12              11.9848                  
+246        21              11.9940                  
+247        34              12.0253                  
+248        23              12.0667                  
+249        18              12.0853                  
+250        201             12.1705                  
+251        69              12.4129                  
+252        28              13.0697                  
+253        52              13.6095                  
+254        26              13.6099                  
+255        15              13.7094                  
+256        67              13.7179                  
+257        30              13.7180                  
+258        13              13.7183                  
+259        45              13.9772                  
+260        77              14.0249                  
+261        41              14.0413                  
+262        65              14.0413                  
+263        9               14.0413                  
+264        49              14.0413                  
+265        37              14.0413                  
+266        59              14.0414                  
+267        72              14.0415                  
+268        225             14.2515                  
+269        4               14.4558                  
+270        40              14.4558                  
+271        29              14.4558                  
+272        50              14.4558                  
+273        66              14.4558                  
+274        25              14.4558                  
+275        0               14.5251                  
+276        190             14.5405                  
+277        48              14.5759                  
+278        35              14.5759                  
+279        235             14.7271                  
+280        164             15.1294                  
+281        231             15.2782                  
+282        27              15.7869                  
+283        199             15.9785                  
+284        217             15.9785                  
+285        236             15.9785                  
+286        212             15.9785                  
+287        230             15.9785                  
+288        202             15.9786                  
+289        177             15.9786                  
+290        165             15.9786                  
+291        242             15.9827                  
+292        188             15.9854                  
+293        179             15.9862                  
+294        1               16.1416                  
+295        178             16.2805                  
+296        173             16.3050                  
+297        239             16.5210                  
+298        237             16.5210                  
+299        167             16.5210                  
+300        233             16.5215                  
+301        174             16.5277                  
+302        170             16.5855                  
+303        197             16.6310                  
+304        234             16.7332                  
+305        186             18.1272                  
+306        196             18.1482                  
+307        222             19.0455                  
+308        166             19.0456                  
+309        224             19.0456                  
+310        208             19.0480                  
+311        211             19.0581                  
+312        191             19.0582                  
+313        181             19.0762                  
+314        185             19.0818                  
+315        182             19.0834                  
+316        228             19.0951                  
+317        184             19.1023                  
+318        206             19.1959                  
+319        227             19.2836                  
+320        207             19.3978                  
+321        232             19.4211                  
+322        198             19.4224                  
+323        205             20.0484                  
+
+ 1 kcal/mol (= .043 eV) represents a 16% to 84% ocupancy difference at 300 K
+ 1 kcal/mol -> [1/99  @ 100K]    [16/84 @ 300K]     [22/78 @ 400K]
+ 2 kcal/mol -> [0/100 @ 100K]    [3/97  @ 300K]     [7/93  @ 400K]
+ 3 kcal/mol -> [0/100 @ 100K]    [1/99  @ 300K]     [2/98  @ 400K]
+
+Saving conformers to AllGeneratedConformers.sdf
+Saving conformers to individual .xyz files in 'GeneratedConformers_xyz/'
+
+Starting to prune the optimized conformers...
+Starting with 324 optimized conformers.
+Conformer 104 is similar to conformer 130 (RMSD: 0.0009)
+Conformer 99 is similar to conformer 130 (RMSD: 0.0014)
+Conformer 95 is similar to conformer 145 (RMSD: 0.0026)
+Conformer 144 is similar to conformer 130 (RMSD: 0.0021)
+Conformer 146 is similar to conformer 130 (RMSD: 0.0039)
+Conformer 134 is similar to conformer 145 (RMSD: 0.0063)
+Conformer 88 is similar to conformer 130 (RMSD: 0.0108)
+Conformer 148 is similar to conformer 130 (RMSD: 0.0441)
+Conformer 117 is similar to conformer 129 (RMSD: 0.0277)
+Conformer 89 is similar to conformer 129 (RMSD: 0.0085)
+Conformer 159 is similar to conformer 105 (RMSD: 0.0433)
+Conformer 124 is similar to conformer 105 (RMSD: 0.0330)
+Conformer 98 is similar to conformer 129 (RMSD: 0.0616)
+Conformer 94 is similar to conformer 147 (RMSD: 0.0182)
+Conformer 91 is similar to conformer 81 (RMSD: 0.0017)
+Conformer 128 is similar to conformer 81 (RMSD: 0.0013)
+Conformer 113 is similar to conformer 136 (RMSD: 0.0046)
+Conformer 92 is similar to conformer 81 (RMSD: 0.0060)
+Conformer 111 is similar to conformer 136 (RMSD: 0.0614)
+Conformer 103 is similar to conformer 115 (RMSD: 0.0000)
+Conformer 156 is similar to conformer 115 (RMSD: 0.0000)
+Conformer 97 is similar to conformer 115 (RMSD: 0.0000)
+Conformer 139 is similar to conformer 90 (RMSD: 0.0001)
+Conformer 137 is similar to conformer 93 (RMSD: 0.0129)
+Conformer 87 is similar to conformer 93 (RMSD: 0.0168)
+Conformer 143 is similar to conformer 93 (RMSD: 0.0172)
+Conformer 153 is similar to conformer 121 (RMSD: 0.0013)
+Conformer 122 is similar to conformer 112 (RMSD: 0.0014)
+Conformer 157 is similar to conformer 112 (RMSD: 0.0027)
+Conformer 126 is similar to conformer 112 (RMSD: 0.0025)
+Conformer 133 is similar to conformer 121 (RMSD: 0.0022)
+Conformer 109 is similar to conformer 112 (RMSD: 0.0044)
+Conformer 116 is similar to conformer 112 (RMSD: 0.0038)
+Conformer 84 is similar to conformer 121 (RMSD: 0.0028)
+Conformer 142 is similar to conformer 121 (RMSD: 0.0044)
+Conformer 161 is similar to conformer 112 (RMSD: 0.0046)
+Conformer 141 is similar to conformer 121 (RMSD: 0.0058)
+Conformer 101 is similar to conformer 150 (RMSD: 0.0217)
+Conformer 85 is similar to conformer 121 (RMSD: 0.0106)
+Conformer 132 is similar to conformer 93 (RMSD: 0.0149)
+Conformer 140 is similar to conformer 83 (RMSD: 0.0025)
+Conformer 102 is similar to conformer 83 (RMSD: 0.0034)
+Conformer 82 is similar to conformer 131 (RMSD: 0.0075)
+Conformer 110 is similar to conformer 83 (RMSD: 0.0110)
+Conformer 127 is similar to conformer 131 (RMSD: 0.0170)
+Conformer 123 is similar to conformer 160 (RMSD: 0.0097)
+Conformer 120 is similar to conformer 160 (RMSD: 0.0096)
+Conformer 100 is similar to conformer 160 (RMSD: 0.0112)
+Conformer 154 is similar to conformer 160 (RMSD: 0.0125)
+Conformer 138 is similar to conformer 160 (RMSD: 0.0701)
+Conformer 118 is similar to conformer 108 (RMSD: 0.0000)
+Conformer 158 is similar to conformer 151 (RMSD: 0.0000)
+Conformer 125 is similar to conformer 151 (RMSD: 0.0000)
+Conformer 155 is similar to conformer 151 (RMSD: 0.0001)
+Conformer 135 is similar to conformer 151 (RMSD: 0.0073)
+Conformer 152 is similar to conformer 112 (RMSD: 0.3630)
+Conformer 107 is similar to conformer 121 (RMSD: 0.2759)
+Conformer 256 is similar to conformer 248 (RMSD: 0.0068)
+Conformer 310 is similar to conformer 246 (RMSD: 0.0088)
+Conformer 244 is similar to conformer 248 (RMSD: 0.0158)
+Conformer 261 is similar to conformer 248 (RMSD: 0.0197)
+Conformer 296 is similar to conformer 248 (RMSD: 0.0132)
+Conformer 255 is similar to conformer 246 (RMSD: 0.0209)
+Conformer 273 is similar to conformer 246 (RMSD: 0.0488)
+Conformer 257 is similar to conformer 248 (RMSD: 0.0239)
+Conformer 275 is similar to conformer 246 (RMSD: 0.0418)
+Conformer 283 is similar to conformer 246 (RMSD: 0.0969)
+Conformer 280 is similar to conformer 248 (RMSD: 0.2487)
+Conformer 322 is similar to conformer 246 (RMSD: 0.2361)
+Conformer 306 is similar to conformer 246 (RMSD: 0.2937)
+Conformer 299 is similar to conformer 248 (RMSD: 0.3533)
+Conformer 253 is similar to conformer 300 (RMSD: 0.0000)
+Conformer 305 is similar to conformer 300 (RMSD: 0.0000)
+Conformer 290 is similar to conformer 300 (RMSD: 0.0002)
+Conformer 295 is similar to conformer 300 (RMSD: 0.0004)
+Conformer 271 is similar to conformer 300 (RMSD: 0.3397)
+Conformer 293 is similar to conformer 248 (RMSD: 0.1629)
+Conformer 106 is similar to conformer 131 (RMSD: 0.2559)
+Conformer 249 is similar to conformer 298 (RMSD: 0.0211)
+Conformer 288 is similar to conformer 252 (RMSD: 0.0033)
+Conformer 262 is similar to conformer 252 (RMSD: 0.0149)
+Conformer 274 is similar to conformer 252 (RMSD: 0.0124)
+Conformer 287 is similar to conformer 309 (RMSD: 0.0122)
+Conformer 243 is similar to conformer 309 (RMSD: 0.0143)
+Conformer 272 is similar to conformer 309 (RMSD: 0.0228)
+Conformer 245 is similar to conformer 252 (RMSD: 0.0397)
+Conformer 291 is similar to conformer 252 (RMSD: 0.0428)
+Conformer 308 is similar to conformer 254 (RMSD: 0.1418)
+Conformer 258 is similar to conformer 264 (RMSD: 0.0170)
+Conformer 297 is similar to conformer 254 (RMSD: 0.0777)
+Conformer 277 is similar to conformer 264 (RMSD: 0.2057)
+Conformer 268 is similar to conformer 254 (RMSD: 0.1288)
+Conformer 260 is similar to conformer 264 (RMSD: 0.1752)
+Conformer 270 is similar to conformer 254 (RMSD: 0.1894)
+Conformer 312 is similar to conformer 264 (RMSD: 0.3757)
+Conformer 286 is similar to conformer 313 (RMSD: 0.0267)
+Conformer 318 is similar to conformer 320 (RMSD: 0.0347)
+Conformer 304 is similar to conformer 313 (RMSD: 0.0886)
+Conformer 303 is similar to conformer 254 (RMSD: 0.4498)
+Conformer 316 is similar to conformer 313 (RMSD: 0.0697)
+Conformer 301 is similar to conformer 264 (RMSD: 0.2768)
+Conformer 311 is similar to conformer 313 (RMSD: 0.1577)
+Conformer 251 is similar to conformer 313 (RMSD: 0.1020)
+Conformer 292 is similar to conformer 320 (RMSD: 0.2434)
+Conformer 267 is similar to conformer 320 (RMSD: 0.2513)
+Conformer 263 is similar to conformer 320 (RMSD: 0.2575)
+Conformer 294 is similar to conformer 320 (RMSD: 0.2136)
+Conformer 285 is similar to conformer 320 (RMSD: 0.2246)
+Conformer 319 is similar to conformer 314 (RMSD: 0.0003)
+Conformer 269 is similar to conformer 314 (RMSD: 0.0852)
+Conformer 276 is similar to conformer 317 (RMSD: 0.1035)
+Conformer 247 is similar to conformer 317 (RMSD: 0.1383)
+Conformer 265 is similar to conformer 320 (RMSD: 0.2815)
+Conformer 307 is similar to conformer 320 (RMSD: 0.3070)
+Conformer 281 is similar to conformer 259 (RMSD: 0.0221)
+Conformer 282 is similar to conformer 315 (RMSD: 0.0267)
+Conformer 302 is similar to conformer 259 (RMSD: 0.0257)
+Conformer 279 is similar to conformer 259 (RMSD: 0.0296)
+Conformer 323 is similar to conformer 278 (RMSD: 0.0000)
+Conformer 289 is similar to conformer 266 (RMSD: 0.0000)
+Conformer 284 is similar to conformer 266 (RMSD: 0.0000)
+Conformer 53 is similar to conformer 3 (RMSD: 0.0129)
+Conformer 47 is similar to conformer 74 (RMSD: 0.0280)
+Conformer 73 is similar to conformer 76 (RMSD: 0.0025)
+Conformer 11 is similar to conformer 7 (RMSD: 0.0050)
+Conformer 8 is similar to conformer 7 (RMSD: 0.0061)
+Conformer 46 is similar to conformer 7 (RMSD: 0.0231)
+Conformer 43 is similar to conformer 54 (RMSD: 0.0100)
+Conformer 20 is similar to conformer 54 (RMSD: 0.0113)
+Conformer 33 is similar to conformer 44 (RMSD: 0.0126)
+Conformer 62 is similar to conformer 44 (RMSD: 0.0183)
+Conformer 17 is similar to conformer 44 (RMSD: 0.0180)
+Conformer 68 is similar to conformer 44 (RMSD: 0.0220)
+Conformer 39 is similar to conformer 54 (RMSD: 0.0319)
+Conformer 70 is similar to conformer 7 (RMSD: 0.0590)
+Conformer 10 is similar to conformer 64 (RMSD: 0.0011)
+Conformer 5 is similar to conformer 64 (RMSD: 0.0014)
+Conformer 60 is similar to conformer 64 (RMSD: 0.0016)
+Conformer 71 is similar to conformer 64 (RMSD: 0.0271)
+Conformer 56 is similar to conformer 64 (RMSD: 0.0309)
+Conformer 36 is similar to conformer 42 (RMSD: 0.0031)
+Conformer 22 is similar to conformer 42 (RMSD: 0.0050)
+Conformer 57 is similar to conformer 16 (RMSD: 0.0055)
+Conformer 24 is similar to conformer 19 (RMSD: 0.0115)
+Conformer 78 is similar to conformer 19 (RMSD: 0.0286)
+Conformer 63 is similar to conformer 19 (RMSD: 0.0322)
+Conformer 38 is similar to conformer 19 (RMSD: 0.0262)
+Conformer 226 is similar to conformer 238 (RMSD: 0.0031)
+Conformer 213 is similar to conformer 223 (RMSD: 0.0375)
+Conformer 219 is similar to conformer 238 (RMSD: 0.0257)
+Conformer 203 is similar to conformer 223 (RMSD: 0.0446)
+Conformer 215 is similar to conformer 238 (RMSD: 0.0433)
+Conformer 229 is similar to conformer 200 (RMSD: 0.0103)
+Conformer 194 is similar to conformer 200 (RMSD: 0.0105)
+Conformer 209 is similar to conformer 200 (RMSD: 0.0092)
+Conformer 214 is similar to conformer 193 (RMSD: 0.0191)
+Conformer 180 is similar to conformer 193 (RMSD: 0.0512)
+Conformer 220 is similar to conformer 200 (RMSD: 0.0717)
+Conformer 187 is similar to conformer 200 (RMSD: 0.2509)
+Conformer 176 is similar to conformer 171 (RMSD: 0.0635)
+Conformer 204 is similar to conformer 195 (RMSD: 0.0139)
+Conformer 175 is similar to conformer 195 (RMSD: 0.0596)
+Conformer 240 is similar to conformer 195 (RMSD: 0.0571)
+Conformer 183 is similar to conformer 195 (RMSD: 0.0737)
+Conformer 163 is similar to conformer 195 (RMSD: 0.0818)
+Conformer 169 is similar to conformer 172 (RMSD: 0.0488)
+Conformer 241 is similar to conformer 221 (RMSD: 0.1807)
+Conformer 210 is similar to conformer 195 (RMSD: 0.0961)
+Conformer 218 is similar to conformer 172 (RMSD: 0.0701)
+Conformer 216 is similar to conformer 171 (RMSD: 0.2646)
+Conformer 162 is similar to conformer 171 (RMSD: 0.2654)
+Conformer 168 is similar to conformer 221 (RMSD: 0.2324)
+Conformer 192 is similar to conformer 171 (RMSD: 0.2929)
+Conformer 189 is similar to conformer 171 (RMSD: 0.3259)
+Conformer 6 is similar to conformer 80 (RMSD: 0.2048)
+Conformer 79 is similar to conformer 14 (RMSD: 0.2159)
+Conformer 2 is similar to conformer 32 (RMSD: 0.2145)
+Conformer 58 is similar to conformer 80 (RMSD: 0.3160)
+Conformer 21 is similar to conformer 32 (RMSD: 0.3760)
+Conformer 18 is similar to conformer 80 (RMSD: 0.3124)
+Conformer 69 is similar to conformer 34 (RMSD: 0.1196)
+Conformer 28 is similar to conformer 14 (RMSD: 0.4845)
+Conformer 30 is similar to conformer 67 (RMSD: 0.0035)
+Conformer 9 is similar to conformer 65 (RMSD: 0.0004)
+Conformer 49 is similar to conformer 65 (RMSD: 0.0004)
+Conformer 37 is similar to conformer 65 (RMSD: 0.0006)
+Conformer 59 is similar to conformer 41 (RMSD: 0.0053)
+Conformer 72 is similar to conformer 41 (RMSD: 0.0049)
+Conformer 40 is similar to conformer 4 (RMSD: 0.0000)
+Conformer 50 is similar to conformer 4 (RMSD: 0.0001)
+Conformer 66 is similar to conformer 4 (RMSD: 0.0014)
+Conformer 25 is similar to conformer 4 (RMSD: 0.0034)
+Conformer 35 is similar to conformer 48 (RMSD: 0.0038)
+Conformer 235 is similar to conformer 225 (RMSD: 0.2172)
+Conformer 217 is similar to conformer 199 (RMSD: 0.0006)
+Conformer 236 is similar to conformer 199 (RMSD: 0.0010)
+Conformer 212 is similar to conformer 199 (RMSD: 0.0049)
+Conformer 230 is similar to conformer 199 (RMSD: 0.0024)
+Conformer 177 is similar to conformer 202 (RMSD: 0.0045)
+Conformer 165 is similar to conformer 202 (RMSD: 0.0059)
+Conformer 242 is similar to conformer 202 (RMSD: 0.0481)
+Conformer 188 is similar to conformer 199 (RMSD: 0.0830)
+Conformer 179 is similar to conformer 202 (RMSD: 0.0858)
+Conformer 1 is similar to conformer 27 (RMSD: 0.2038)
+Conformer 178 is similar to conformer 199 (RMSD: 0.4239)
+Conformer 173 is similar to conformer 199 (RMSD: 0.4743)
+Conformer 237 is similar to conformer 239 (RMSD: 0.0050)
+Conformer 233 is similar to conformer 239 (RMSD: 0.0114)
+Conformer 174 is similar to conformer 167 (RMSD: 0.0474)
+Conformer 170 is similar to conformer 239 (RMSD: 0.1356)
+Conformer 197 is similar to conformer 167 (RMSD: 0.1882)
+Conformer 234 is similar to conformer 239 (RMSD: 0.2577)
+Conformer 196 is similar to conformer 186 (RMSD: 0.1752)
+Conformer 224 is similar to conformer 222 (RMSD: 0.0105)
+Conformer 208 is similar to conformer 166 (RMSD: 0.0829)
+Conformer 191 is similar to conformer 211 (RMSD: 0.0093)
+Conformer 181 is similar to conformer 222 (RMSD: 0.2154)
+Conformer 182 is similar to conformer 211 (RMSD: 0.2295)
+Conformer 228 is similar to conformer 211 (RMSD: 0.2563)
+Conformer 184 is similar to conformer 185 (RMSD: 0.0865)
+Conformer 206 is similar to conformer 222 (RMSD: 0.3438)
+Conformer 232 is similar to conformer 185 (RMSD: 0.4868)
+Conformer 198 is similar to conformer 227 (RMSD: 0.1056)
+Conformer 205 is similar to conformer 227 (RMSD: 0.3767)
+Pruned down to 100 unique conformers.
+Saving unique conformers to 'unique_conformers_xyz/'
+
+Boltzmann Probabilities at 298.15 K:
+--------------------------------------------------------------------------------
+                                 |T = 100 K            |T = 300 K           
+Conformer ID  Energy (kcal/mol)  |Prob. (%)  Accu. (%) |Prob. (%)  Accu. (%)
+--------------------------------------------------------------------------------
+0             -6.0350             21.77      21.77      9.68       9.68     
+1             -6.0349             21.77      43.54      9.68       19.35    
+2             -5.9391             13.44      56.98      8.24       27.59    
+3             -5.9361             13.24      70.22      8.20       35.79    
+4             -5.7648             5.59       75.81      6.15       41.94    
+5             -5.7644             5.58       81.39      6.15       48.08    
+6             -5.7241             4.56       85.94      5.74       53.83    
+7             -5.7239             4.55       90.50      5.74       59.57    
+8             -5.6453             3.06       93.56      5.03       64.60    
+9             -5.4459             1.12       94.68      3.60       68.20    
+10            -5.4459             1.12       95.81      3.60       71.80    
+11            -5.3980             0.88       96.69      3.32       75.13    
+12            -5.2770             0.48       97.17      2.71       77.84    
+13            -5.2733             0.47       97.64      2.70       80.54    
+14            -5.2664             0.46       98.09      2.67       83.20    
+15            -5.2664             0.46       98.55      2.67       85.87    
+16            -5.2228             0.37       98.92      2.48       88.35    
+17            -5.2228             0.37       99.28      2.48       90.82    
+18            -5.1740             0.29       99.57      2.28       93.11    
+19            -4.9915             0.11       99.68      1.68       94.79    
+20            -4.9915             0.11       99.79      1.68       96.47    
+21            -4.9702             0.10       99.90      1.62       98.09    
+22            -4.9702             0.10       100.00     1.62       99.71    
+23            -3.2463             0.00       100.00     0.09       99.80    
+24            -3.2463             0.00       100.00     0.09       99.89    
+25            -2.8705             0.00       100.00     0.05       99.94    
+26            -2.8705             0.00       100.00     0.05       99.99    
+27            -0.9539             0.00       100.00     0.00       99.99    
+28            -0.9006             0.00       100.00     0.00       99.99    
+29            -0.7773             0.00       100.00     0.00       99.99    
+30            -0.7773             0.00       100.00     0.00       99.99    
+31            -0.4837             0.00       100.00     0.00       100.00   
+32            -0.4698             0.00       100.00     0.00       100.00   
+33            -0.3300             0.00       100.00     0.00       100.00   
+34            -0.3300             0.00       100.00     0.00       100.00   
+35            -0.1683             0.00       100.00     0.00       100.00   
+36            -0.1683             0.00       100.00     0.00       100.00   
+37            -0.1230             0.00       100.00     0.00       100.00   
+38            -0.1230             0.00       100.00     0.00       100.00   
+39            -0.0110             0.00       100.00     0.00       100.00   
+40            -0.0110             0.00       100.00     0.00       100.00   
+41            5.3888              0.00       100.00     0.00       100.00   
+42            5.3899              0.00       100.00     0.00       100.00   
+43            5.3960              0.00       100.00     0.00       100.00   
+44            5.4350              0.00       100.00     0.00       100.00   
+45            5.4351              0.00       100.00     0.00       100.00   
+46            5.4475              0.00       100.00     0.00       100.00   
+47            5.4480              0.00       100.00     0.00       100.00   
+48            6.0528              0.00       100.00     0.00       100.00   
+49            6.0951              0.00       100.00     0.00       100.00   
+50            6.0955              0.00       100.00     0.00       100.00   
+51            6.1044              0.00       100.00     0.00       100.00   
+52            6.1425              0.00       100.00     0.00       100.00   
+53            6.1425              0.00       100.00     0.00       100.00   
+54            7.8370              0.00       100.00     0.00       100.00   
+55            7.8373              0.00       100.00     0.00       100.00   
+56            8.3038              0.00       100.00     0.00       100.00   
+57            8.3042              0.00       100.00     0.00       100.00   
+58            10.5124             0.00       100.00     0.00       100.00   
+59            10.6734             0.00       100.00     0.00       100.00   
+60            10.6955             0.00       100.00     0.00       100.00   
+61            10.7066             0.00       100.00     0.00       100.00   
+62            10.7201             0.00       100.00     0.00       100.00   
+63            10.7206             0.00       100.00     0.00       100.00   
+64            11.3501             0.00       100.00     0.00       100.00   
+65            11.5089             0.00       100.00     0.00       100.00   
+66            11.8013             0.00       100.00     0.00       100.00   
+67            11.9848             0.00       100.00     0.00       100.00   
+68            12.0253             0.00       100.00     0.00       100.00   
+69            12.0667             0.00       100.00     0.00       100.00   
+70            12.1705             0.00       100.00     0.00       100.00   
+71            13.6095             0.00       100.00     0.00       100.00   
+72            13.6099             0.00       100.00     0.00       100.00   
+73            13.7094             0.00       100.00     0.00       100.00   
+74            13.7179             0.00       100.00     0.00       100.00   
+75            13.7183             0.00       100.00     0.00       100.00   
+76            13.9772             0.00       100.00     0.00       100.00   
+77            14.0249             0.00       100.00     0.00       100.00   
+78            14.0413             0.00       100.00     0.00       100.00   
+79            14.0413             0.00       100.00     0.00       100.00   
+80            14.2515             0.00       100.00     0.00       100.00   
+81            14.4558             0.00       100.00     0.00       100.00   
+82            14.4558             0.00       100.00     0.00       100.00   
+83            14.5251             0.00       100.00     0.00       100.00   
+84            14.5405             0.00       100.00     0.00       100.00   
+85            14.5759             0.00       100.00     0.00       100.00   
+86            15.1294             0.00       100.00     0.00       100.00   
+87            15.2782             0.00       100.00     0.00       100.00   
+88            15.7869             0.00       100.00     0.00       100.00   
+89            15.9785             0.00       100.00     0.00       100.00   
+90            15.9786             0.00       100.00     0.00       100.00   
+91            16.5210             0.00       100.00     0.00       100.00   
+92            16.5210             0.00       100.00     0.00       100.00   
+93            18.1272             0.00       100.00     0.00       100.00   
+94            19.0455             0.00       100.00     0.00       100.00   
+95            19.0456             0.00       100.00     0.00       100.00   
+96            19.0581             0.00       100.00     0.00       100.00   
+97            19.0818             0.00       100.00     0.00       100.00   
+98            19.2836             0.00       100.00     0.00       100.00   
+99            19.3978             0.00       100.00     0.00       100.00   
+
+Done.
+
+
+
+real	1m5.048s
+user	1m3.695s
+sys	0m0.195s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/50_59/51_M10/0_ConformerSearch ...
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Thu May 14 10:25:19 CDT 2026
+Exit status: 0
+Running epilogue for job 224720.wheat-r16-sch41
+Job 224720.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/578)

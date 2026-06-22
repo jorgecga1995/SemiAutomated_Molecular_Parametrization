@@ -1,0 +1,465 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r9-cp35b at Fri May 15 21:35:16 CDT 2026
+Job ID: 225825.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/0_9/5_HAP/1_DFT_opt/conformer1
+Creating scratch directory: /p/work/jorgecga/tmp/225825.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/225825.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting Psi4 Python script...
+
+Starting optimization from unique_conformer_1.xyz
+Optimizer: Optimization complete!
+Opt Done. Electronic Energy after optimization 0: -1186.01494296 Hartrees
+
+Starting Frequency Calculation
+Traceback (most recent call last):
+  File "/p/work/jorgecga/tmp/225825.wheat-r16-sch41/0.9_b97-3c_OptFreq.py", line 76, in <module>
+    freq_energy, wfn = psi4.frequency('b973c', molecule=mol, return_wfn=True)   # Run the frequency calculation
+                       ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/driver.py", line 1602, in frequency
+    H, wfn = hessian(name, return_wfn=True, molecule=molecule, **kwargs)
+             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/driver.py", line 1439, in hessian
+    plan.compute()
+    ~~~~~~~~~~~~^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/driver_findif.py", line 1311, in compute
+    t.compute(client=client)
+    ~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/task_base.py", line 190, in compute
+    self.result = qcng.compute(
+                  ~~~~~~~~~~~~^
+        self.plan(),
+        ^^^^^^^^^^^^
+    ...<8 lines>...
+        },
+        ^^
+    )
+    ^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/qcengine/compute.py", line 108, in compute
+    output_data = executor.compute(input_data, config)
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/qcengine/programs/psi4.py", line 292, in compute
+    raise UnknownError(error_message)
+qcengine.exceptions.UnknownError: 
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.10 release
+
+                         Git: Rev {} zzzzzzz 
+
+
+    D. G. A. Smith, L. A. Burns, A. C. Simmonett, R. M. Parrish,
+    M. C. Schieber, R. Galvelis, P. Kraus, H. Kruse, R. Di Remigio,
+    A. Alenaizan, A. M. James, S. Lehtola, J. P. Misiewicz, M. Scheurer,
+    R. A. Shaw, J. B. Schriber, Y. Xie, Z. L. Glick, D. A. Sirianni,
+    J. S. O'Brien, J. M. Waldrop, A. Kumar, E. G. Hohenstein,
+    B. P. Pritchard, B. R. Brooks, H. F. Schaefer III, A. Yu. Sokolov,
+    K. Patkowski, A. E. DePrince III, U. Bozkaya, R. A. King,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, C. D. Sherrill,
+    J. Chem. Phys. 152(18) 184108 (2020). https://doi.org/10.1063/5.0006002
+
+                            Additional Code Authors
+    E. T. Seidl, C. L. Janssen, E. F. Valeev, M. L. Leininger,
+    J. F. Gonthier, R. M. Richard, H. R. McAlexander, M. Saitow, X. Wang,
+    P. Verma, M. H. Lechner, A. Jiang, S. Behnle, A. G. Heide,
+    M. F. Herbst, D. L. Poole, T. Győri, E. C. Mitchell, J. P. Pederson,
+    and A. M. Wallace
+
+             Previous Authors, Complete List of Code Contributors,
+                       and Citations for Specific Modules
+    https://github.com/psi4/psi4/blob/master/codemeta.json
+    https://github.com/psi4/psi4/graphs/contributors
+    https://psicode.org/psi4manual/master/introduction.html#citing-psifour
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Friday, 15 May 2026 09:35PM
+
+    Process ID: 381856
+    Host:       wheat-r9-cp35b
+    PSIDATADIR: /p/home/jorgecga/.conda/envs/psi4_env/share/psi4
+    Memory:     326.0 GiB
+    Threads:    92
+    Addons:     a̶d̶c̶c̶, a̶m̶b̶i̶t̶, b̶s̶e̶, c̶c̶t̶3̶, c̶f̶o̶u̶r̶, c̶h̶e̶m̶p̶s̶2̶, c̶p̶p̶e̶, d̶d̶x̶, dftd3,
+                dftd4, dkh, ecpint, einsums, f̶o̶r̶t̶e̶, g̶a̶u̶x̶c̶, gcp, g̶d̶m̶a̶,
+                g̶e̶o̶m̶e̶t̶r̶i̶c̶, g̶p̶u̶_̶d̶f̶c̶c̶, i̶n̶t̶e̶g̶r̶a̶t̶o̶r̶x̶x̶, i̶p̶i̶,
+                l̶i̶b̶e̶f̶p̶, m̶d̶i̶, m̶p̶2̶d̶, m̶r̶c̶c̶, ooo, o̶p̶e̶n̶f̶e̶r̶m̶i̶o̶n̶p̶s̶i̶4̶,
+                pcmsolver, p̶s̶i̶4̶f̶o̶c̶k̶c̶i̶, p̶s̶i̶x̶a̶s̶, resp, s̶i̶m̶i̶n̶t̶,
+                s̶n̶s̶m̶p̶2̶, v̶2̶r̶d̶m̶_̶c̶a̶s̶s̶c̶f̶
+
+  ==> Input QCSchema <==
+
+--------------------------------------------------------------------------
+{'driver': 'gradient',
+ 'extras': {'psiapi': True, 'wfn_qcvars_only': True},
+ 'id': None,
+ 'keywords': {'DFT_PRUNING_SCHEME': 'ROBUST',
+              'DFT_RADIAL_POINTS': 99,
+              'DFT_SPHERICAL_POINTS': 590,
+              'D_CONVERGENCE': 1e-08,
+              'E_CONVERGENCE': 1e-08,
+              'GEOM_MAXITER': 200,
+              'G_CONVERGENCE': 'QCHEM',
+              'PARENT_SYMMETRY': 'C1',
+              'REFERENCE': 'RKS',
+              'SCF__INTS_TOLERANCE': 1e-12,
+              'function_kwargs': {'write_orbitals': False}},
+ 'model': {'basis': '(auto)', 'method': 'b973c'},
+ 'molecule': {'atom_labels': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+                              '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''],
+              'atomic_numbers': [7, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 16,
+                                 6, 6, 6, 1, 1, 8, 8, 1, 1],
+              'extras': {},
+              'fix_com': True,
+              'fix_orientation': True,
+              'fragment_charges': [0.0],
+              'fragment_multiplicities': [1],
+              'fragments': [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24,
+                             25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37]],
+              'geometry': [-0.7951546642928281, 0.21238935002104073, -2.687481194382883, 0.9173410613354508,
+                           -1.6586703980293849, -2.0741049809688072, -0.05736433077627208, -3.8937654809679,
+                           -3.0435082347568474, -2.3576400074642017, -3.325626978473776, -4.246710336705644,
+                           -2.786344604641662, -0.7581341739188439, -4.021628996295242, -4.9218993898009895,
+                           0.8422089270188563, -4.88029169109709, -6.446675769965386, 2.021773460963691,
+                           -2.719727051865347, -7.636394963753277, 0.08760603545758021, -0.9648839255565839,
+                           -9.165344895402596, 1.2790865861063636, 1.1567673195156447, -10.226534756380184,
+                           -0.5992679209517513, 3.065434446206903, -12.136755931927762, -2.447118403240199,
+                           1.9747183042402188, 0.793079116642091, -5.728490034791494, -2.8411186485890236,
+                           -3.6044864651843334, -4.637772347326757, -5.173359642676985, -6.161431203659427,
+                           -0.3278085357632868, -6.034447861627853, -4.231776738581007, 2.3432734861628433,
+                           -6.12132077751411, -7.914030810682867, 3.2222146875689317, -3.5342293594317122,
+                           -5.231930970347645, 3.2837011763043087, -1.6242660243211815, -6.161820651357173,
+                           -1.1036534402383777, -0.15851581303409282, -8.831056409269985, -1.1723073002949829,
+                           -2.079667027621459, -7.970353376761916, 2.636052631153169, 2.1547455684916343,
+                           -10.718212571385436, 2.378764076170829, 0.3485928809544936, -8.665779083371998,
+                           -1.6464163601037556, 3.9212160704445376, -11.110383136704586, 0.4542258635259843,
+                           4.6033510290784605, -11.290996176406628, -3.6907842604297967, 0.5713188417708013,
+                           -12.938730392216895, -3.643009856142254, 3.4449809889647676, -13.695251368999294,
+                           -1.4521045209374617, 1.0643326545017289, 3.1764319164827852, -1.1902792164160816,
+                           -0.6833679399720562, 5.257024560957918, -2.755111596360648, -0.42710348813847293,
+                           3.607377890427677, 1.603121334191808, 1.0188639405121334, 6.599634641782636,
+                           0.6384080956089994, 2.004854665170549, 7.164036517370104, -1.7272160244590842,
+                           1.0849976280626237, 8.067512302834842, 2.320925189520045, 3.5747994692883194,
+                           5.38703633907125, -4.565116954753919, -1.3542793792208456, 8.933125675424312,
+                           -2.651563345423085, 1.4922103973061476, 7.400741061676732, 4.408944616075662,
+                           4.273625774772526, 10.351840667881362, 1.311786766309692, 4.223751285583817,
+                           -0.5375470559443697, 2.058792684699415, -2.3357423922556806, 11.160551664707627,
+                           2.5835893787553728, 5.261928737323222],
+              'mass_numbers': [14, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+                               12, 12, 32, 12, 12, 12, 1, 1, 16, 16, 1, 1],
+              'masses': [14.00307400443, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 12.0, 1.00782503223,
+                         1.00782503223, 1.00782503223, 1.00782503223, 1.00782503223, 1.00782503223, 1.00782503223,
+                         1.00782503223, 1.00782503223, 1.00782503223, 1.00782503223, 1.00782503223, 1.00782503223,
+                         1.00782503223, 1.00782503223, 12.0, 12.0, 31.9720711744, 12.0, 12.0, 12.0, 1.00782503223,
+                         1.00782503223, 15.99491461957, 15.99491461957, 1.00782503223, 1.00782503223],
+              'molecular_charge': 0.0,
+              'molecular_multiplicity': 1,
+              'name': 'C15H19NO2S',
+              'provenance': {'creator': 'QCElemental',
+                             'routine': 'qcelemental.molparse.from_string',
+                             'version': '0.30.1'},
+              'real': [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True,
+                       True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True,
+                       True, True, True, True, True, True],
+              'schema_name': 'qcschema_molecule',
+              'schema_version': 2,
+              'symbols': ['N', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H',
+                          'H', 'H', 'H', 'H', 'H', 'H', 'H', 'C', 'C', 'S', 'C', 'C', 'C', 'H', 'H', 'O', 'O', 'H',
+                          'H'],
+              'validated': True},
+ 'protocols': {'stdout': True},
+ 'provenance': {'creator': 'QCElemental', 'routine': 'qcelemental.models.results', 'version': '0.30.1'},
+ 'schema_name': 'qcschema_input',
+ 'schema_version': 1}
+--------------------------------------------------------------------------
+
+Scratch directory: /tmp/
+gradient() will perform analytic gradient computation.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  7, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on wheat-r9-cp35b
+*** at Fri May 15 22:47:54 2026
+
+   => Loading Basis Set <=
+
+    Name: DEF2-MTZVP
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1                   entry N          line   132 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-mtzvp.gbs 
+    atoms 2-11, 27-28, 30-32  entry C          line   103 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-mtzvp.gbs 
+    atoms 12-26, 33-34, 37-38 entry H          line     9 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-mtzvp.gbs 
+    atoms 29                  entry S          line   420 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-mtzvp.gbs 
+    atoms 35-36               entry O          line   161 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-mtzvp.gbs 
+
+   => B973C: Empirical Dispersion <=
+
+    Grimme's -D3 (BJ-damping) Dispersion Correction with ATM
+    Grimme S.; Ehrlich S.; Goerigk L. (2011), J. Comput. Chem., 32: 1456
+
+        s6 =       1.000000
+        s8 =       1.500000
+        a1 =       0.370000
+        a2 =       4.100000
+        s9 =       1.000000
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                       92 Threads, 333786 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Bohr), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         N           -0.795154664293     0.212389350021    -2.687481194383    14.003074004430
+         C            0.917341061335    -1.658670398029    -2.074104980969    12.000000000000
+         C           -0.057364330776    -3.893765480968    -3.043508234757    12.000000000000
+         C           -2.357640007464    -3.325626978474    -4.246710336706    12.000000000000
+         C           -2.786344604642    -0.758134173919    -4.021628996295    12.000000000000
+         C           -4.921899389801     0.842208927019    -4.880291691097    12.000000000000
+         C           -6.446675769965     2.021773460964    -2.719727051865    12.000000000000
+         C           -7.636394963753     0.087606035458    -0.964883925557    12.000000000000
+         C           -9.165344895403     1.279086586106     1.156767319516    12.000000000000
+         C          -10.226534756380    -0.599267920952     3.065434446207    12.000000000000
+         C          -12.136755931928    -2.447118403240     1.974718304240    12.000000000000
+         H            0.793079116642    -5.728490034791    -2.841118648589     1.007825032230
+         H           -3.604486465184    -4.637772347327    -5.173359642677     1.007825032230
+         H           -6.161431203659    -0.327808535763    -6.034447861628     1.007825032230
+         H           -4.231776738581     2.343273486163    -6.121320777514     1.007825032230
+         H           -7.914030810683     3.222214687569    -3.534229359432     1.007825032230
+         H           -5.231930970348     3.283701176304    -1.624266024321     1.007825032230
+         H           -6.161820651357    -1.103653440238    -0.158515813034     1.007825032230
+         H           -8.831056409270    -1.172307300295    -2.079667027621     1.007825032230
+         H           -7.970353376762     2.636052631153     2.154745568492     1.007825032230
+         H          -10.718212571385     2.378764076171     0.348592880954     1.007825032230
+         H           -8.665779083372    -1.646416360104     3.921216070445     1.007825032230
+         H          -11.110383136705     0.454225863526     4.603351029078     1.007825032230
+         H          -11.290996176407    -3.690784260430     0.571318841771     1.007825032230
+         H          -12.938730392217    -3.643009856142     3.444980988965     1.007825032230
+         H          -13.695251368999    -1.452104520937     1.064332654502     1.007825032230
+         C            3.176431916483    -1.190279216416    -0.683367939972    12.000000000000
+         C            5.257024560958    -2.755111596361    -0.427103488138    12.000000000000
+         S            3.607377890428     1.603121334192     1.018863940512    31.972071174400
+         C            6.599634641783     0.638408095609     2.004854665171    12.000000000000
+         C            7.164036517370    -1.727216024459     1.084997628063    12.000000000000
+         C            8.067512302835     2.320925189520     3.574799469288    12.000000000000
+         H            5.387036339071    -4.565116954754    -1.354279379221     1.007825032230
+         H            8.933125675424    -2.651563345423     1.492210397306     1.007825032230
+         O            7.400741061677     4.408944616076     4.273625774773    15.994914619570
+         O           10.351840667881     1.311786766310     4.223751285584    15.994914619570
+         H           -0.537547055944     2.058792684699    -2.335742392256     1.007825032230
+         H           11.160551664708     2.583589378755     5.261928737323     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.01928  B =      0.00436  C =      0.00397 [cm^-1]
+  Rotational constants: A =    578.00954  B =    130.55999  C =    118.94691 [MHz]
+  Nuclear repulsion = 1467.144898230775652
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 148
+  Nalpha       = 74
+  Nbeta        = 74
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-08
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: DEF2-MTZVP
+    Blend: DEF2-MTZVP
+    Number of shells: 231
+    Number of basis functions: 431
+    Number of Cartesian functions: 452
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 7.0.0
+    S. Lehtola, C. Steigemann, M. J.T. Oliveira, and M. A.L. Marques.,  SoftwareX 7, 1–5 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: B973C <= 
+
+    B97-3c GGA-based 3C composite method with a TZ basis set, D3 and short-range basis set correction.  (10.1063/1.5012601)
+     J. G. Brandenburg, C.Bannwarth, A. Hansen, S. Grimme J. Chem. Phys. 148, 064104, 2018
+
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =          FALSE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange-Correlation Functionals <=
+
+    1.0000   Becke 97-3c by Grimme et. al.
+
+   => LibXC Density Thresholds  <==
+
+    XC_GGA_XC_B97_3C:  1.00E-14 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =         ROBUST
+    Pruning Type           =         REGION
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             99
+    Spherical Points       =            590
+    Total Points           =        1392920
+    Total Blocks           =           9505
+    Max Points             =            256
+    Max Functions          =            292
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (DEF2-MTZVP AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1                   entry N          line   258 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 2-11, 27-28, 30-32  entry C          line   198 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 12-26, 33-34, 37-38 entry H          line    18 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 29                  entry S          line   903 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-universal-jkfit.gbs 
+    atoms 35-36               entry O          line   318 file /p/home/jorgecga/.conda/envs/psi4_env/share/psi4/basis/def2-universal-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 1.943 GiB; user supplied 237.063 GiB. 
+  SCF_SUBTYPE=INCORE selected. In-core MEM_DF algorithm will be used.
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                    No
+    wK tasked:                   No
+    OpenMP threads:              92
+    Memory [MiB]:            242752
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):      30.6103
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (DEF2-MTZVP AUX)
+    Blend: DEF2-UNIVERSAL-JKFIT
+    Number of shells: 602
+    Number of basis functions: 1826
+    Number of Cartesian functions: 2149
+    Spherical Harmonics?: true
+    Max angular momentum: 4
+
+  Cached 100.0% of DFT collocation blocks in 7.409 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 1.7703106364E-05.
+  Reciprocal condition number of the overlap matrix is 1.6952543651E-06.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A        431     431 
+   -------------------------
+    Total     431     431
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter SAD: -1123.03138206118547   -1.12303e+03   0.00000e+00 
+   @DF-RKS iter   1:  -869.11161981258124    2.53920e+02   2.36495e-02 ADIIS/DIIS
+   @DF-RKS iter   2:  -500.42048242681687    3.68691e+02   5.57660e-02 ADIIS/DIIS
+   @DF-RKS iter   3:  -937.58010053600401   -4.37160e+02   3.81098e-02 ADIIS/DIIS
+   @DF-RKS iter   4:  -820.76353158632139    1.16817e+02   4.67249e-02 ADIIS/DIIS
+   @DF-RKS iter   5: -1078.20065199805185   -2.57437e+02   2.71341e-02 ADIIS/DIIS
+   @DF-RKS iter   6:  -828.05369705070837    2.50147e+02   3.74938e-02 ADIIS/DIIS
+   @DF-RKS iter   7: -1162.82873908302759   -3.34775e+02   1.21369e-02 ADIIS/DIIS
+   @DF-RKS iter   8:  -953.52682569032947    2.09302e+02   2.72013e-02 ADIIS/DIIS
+   @DF-RKS iter   9: -1162.32461203166508   -2.08798e+02   9.88726e-03 ADIIS/DIIS
+   @DF-RKS iter  10: -1170.54460634354177   -8.21999e+00   7.66002e-03 ADIIS/DIIS
+Traceback (most recent call last):
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/schema_wrapper.py", line 463, in run_qcschema
+    ret_data = run_json_qcschema(input_model.dict(), clean, False, keep_wfn=keep_wfn)
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/schema_wrapper.py", line 629, in run_json_qcschema
+    val, wfn = methods_dict_[json_data["driver"]](method, **kwargs)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/driver.py", line 640, in gradient
+    wfn = procedures['gradient'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/proc.py", line 96, in select_scf_gradient
+    return func(name, **kwargs)
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/proc.py", line 2690, in run_scf_gradient
+    ref_wfn = run_scf(name, **kwargs)
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/proc.py", line 2590, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/proc.py", line 1877, in scf_helper
+    e_scf = scf_wfn.compute_energy()
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 86, in scf_compute_energy
+    self.iterations()
+    ~~~~~~~~~~~~~~~^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/scf_proc/scf_iterator.py", line 501, in scf_iterate
+    for engine_used in self.diis(Dnorm):
+                       ~~~~~~~~~^^^^^^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/scf_proc/subclass_methods.py", line 118, in _RHF_diis
+    return self.diis_manager_.extrapolate(self.Fa(), Dnorm=Dnorm)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/diis.py", line 409, in extrapolate
+    coeffs = m * initial_coefficient_function() + (1 - m) * self.diis_coefficients()
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/p/home/jorgecga/.conda/envs/psi4_env/lib/python3.13/site-packages/psi4/driver/procrouting/diis.py", line 290, in adiis_coefficients
+    raise Exception("ADIIS minimization failed. File a bug, and include your entire input and output files.")
+Exception: ADIIS minimization failed. File a bug, and include your entire input and output files.
+
+
+real	72m55.904s
+user	5652m31.975s
+sys	128m32.636s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/0_9/5_HAP/1_DFT_opt/conformer1 ...
+cp: cannot stat '*.txt': No such file or directory
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Fri May 15 22:48:15 CDT 2026
+Exit status: 1
+Running epilogue for job 225825.wheat-r16-sch41
+Job 225825.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/26)

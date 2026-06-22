@@ -1,0 +1,80 @@
+
+Molecule was read successfully!
+RDKit interpreted the overall charge as: 0
+Number of rotatable bonds in the molecule: 2
+Generating isomers...
+Generated 2 stereoisomers.
+Generating conformers for all isomers...
+Isomer (SMILES: [H]/C(=C(/[H])c1c([H])c([H])c([H])c([H])c1[H])c1c([H])c([H])c([H])c([H])c1[H]) generated, looking at conformers ...
+Isomer (SMILES: [H]/C(=C(\[H])c1c([H])c([H])c([H])c([H])c1[H])c1c([H])c([H])c([H])c([H])c1[H]) generated, looking at conformers ...
+Generated a total of 20 conformers across all isomers.
+Optimizing conformers with MMFF94...
+Optimization complete.
+
+Conformers Sorted by Energy (Lowest to Highest):
+--------------------------------------------------
+Rank       Conformer ID    Energy (kcal/mol)        
+--------------------------------------------------
+0          6               38.7410                  
+1          9               38.7410                  
+2          4               38.7410                  
+3          2               39.9300                  
+4          1               39.9300                  
+5          5               39.9300                  
+6          3               39.9300                  
+7          0               39.9300                  
+8          7               39.9300                  
+9          8               39.9300                  
+10         14              41.2201                  
+11         12              41.2201                  
+12         10              41.2201                  
+13         19              41.2201                  
+14         15              41.2201                  
+15         17              41.2201                  
+16         11              41.2201                  
+17         13              41.2201                  
+18         18              41.2201                  
+19         16              41.2201                  
+
+ 1 kcal/mol (= .043 eV) represents a 16% to 84% ocupancy difference at 300 K
+ 1 kcal/mol -> [1/99  @ 100K]    [16/84 @ 300K]     [22/78 @ 400K]
+ 2 kcal/mol -> [0/100 @ 100K]    [3/97  @ 300K]     [7/93  @ 400K]
+ 3 kcal/mol -> [0/100 @ 100K]    [1/99  @ 300K]     [2/98  @ 400K]
+
+Saving conformers to AllGeneratedConformers.sdf
+Saving conformers to individual .xyz files in 'GeneratedConformers_xyz/'
+
+Starting to prune the optimized conformers...
+Starting with 20 optimized conformers.
+Conformer 9 is similar to conformer 6 (RMSD: 0.0000)
+Conformer 4 is similar to conformer 6 (RMSD: 0.0013)
+Conformer 2 is similar to conformer 6 (RMSD: 0.2994)
+Conformer 1 is similar to conformer 6 (RMSD: 0.2995)
+Conformer 5 is similar to conformer 6 (RMSD: 0.2995)
+Conformer 3 is similar to conformer 6 (RMSD: 0.2996)
+Conformer 0 is similar to conformer 6 (RMSD: 0.2996)
+Conformer 7 is similar to conformer 6 (RMSD: 0.2996)
+Conformer 8 is similar to conformer 6 (RMSD: 0.2996)
+Conformer 10 is similar to conformer 14 (RMSD: 0.0000)
+Conformer 19 is similar to conformer 12 (RMSD: 0.0000)
+Conformer 15 is similar to conformer 12 (RMSD: 0.0000)
+Conformer 17 is similar to conformer 14 (RMSD: 0.0000)
+Conformer 11 is similar to conformer 12 (RMSD: 0.0000)
+Conformer 13 is similar to conformer 12 (RMSD: 0.0000)
+Conformer 18 is similar to conformer 14 (RMSD: 0.0001)
+Conformer 16 is similar to conformer 14 (RMSD: 0.0001)
+Pruned down to 3 unique conformers.
+Saving unique conformers to 'unique_conformers_xyz/'
+
+Boltzmann Probabilities at 298.15 K:
+--------------------------------------------------------------------------------
+                                 |T = 100 K            |T = 300 K           
+Conformer ID  Energy (kcal/mol)  |Prob. (%)  Accu. (%) |Prob. (%)  Accu. (%)
+--------------------------------------------------------------------------------
+0             38.7410             100.00     100.00     96.97      96.97    
+1             41.2201             0.00       100.00     1.52       98.48    
+2             41.2201             0.00       100.00     1.52       100.00   
+
+Done.
+
+

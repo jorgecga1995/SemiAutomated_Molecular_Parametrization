@@ -1,0 +1,90 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r26-cp2a at Tue May 12 10:47:26 CDT 2026
+Job ID: 223294.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/STB/1_DFT_opt/conformer0
+Creating scratch directory: /p/work/jorgecga/tmp/223294.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/223294.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting Psi4 Python script...
+
+Starting optimization from mol_afterPBE0-D4_Opt0.xyz
+Optimizer: Optimization complete!
+...Optimization finished!
+Electronic Energy after m062x optimization 0: -540.66347229 Hartrees
+
+Starting Frequency Calculation
+Warning: thermodynamics relations excluded imaginary frequencies: ['38.7565i' '25.8396i']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['58.5663' '84.5914' '210.0725' '212.3779' '286.9875' '290.5466'
+ '409.6124' '410.2349' '470.1684' '472.2297' '542.8722' '553.6113']
+...Frequency calculation finished!
+
+ Warning! Found 2 imaginary frequencies:
+   -38.76 cm^-1
+   -25.84 cm^-1
+Imaginary mode displacements have been saved to: i_mode_displacements_M062X_0.txt
+Optimizer: Optimization complete!
+...Optimization finished!
+Electronic Energy after m062x optimization 1: -540.66347404 Hartrees
+
+Starting Frequency Calculation
+Warning: thermodynamics relations excluded imaginary frequencies: ['27.1428i' '8.6083i']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['58.8937' '84.0837' '211.0267' '215.7296' '287.4678' '290.5537'
+ '409.9327' '410.9258' '470.7699' '473.1258' '543.0383' '553.5466']
+...Frequency calculation finished!
+
+ Warning! Found 2 imaginary frequencies:
+   -27.14 cm^-1
+   -8.61 cm^-1
+Imaginary mode displacements have been saved to: i_mode_displacements_M062X_1.txt
+Optimizer: Optimization complete!
+...Optimization finished!
+Electronic Energy after m062x optimization 2: -540.66347553 Hartrees
+
+Starting Frequency Calculation
+Warning: thermodynamics relations excluded imaginary frequencies: ['19.9854i']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['40.3679' '58.8470' '84.3175' '211.2527' '215.4652' '287.1013' '291.0559'
+ '410.2889' '411.4852' '470.4631' '473.9906' '543.3442' '553.3205']
+...Frequency calculation finished!
+
+ Warning! Found 1 imaginary frequencies:
+   -19.99 cm^-1
+Imaginary mode displacements have been saved to: i_mode_displacements_M062X_2.txt
+Optimizer: Optimization complete!
+...Optimization finished!
+Electronic Energy after m062x optimization 3: -540.66347860 Hartrees
+
+Starting Frequency Calculation
+Warning: thermodynamics relations excluded imaginary frequencies: ['22.4940i']
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['44.3809' '58.8306' '85.0340' '211.1721' '215.4438' '285.6568' '293.2668'
+ '410.2727' '411.9642' '469.4014' '475.2172' '543.6695' '553.4912']
+...Frequency calculation finished!
+
+ Warning! Found 1 imaginary frequencies:
+   -22.49 cm^-1
+Imaginary mode displacements have been saved to: i_mode_displacements_M062X_3.txt
+Optimizer: Optimization complete!
+...Optimization finished!
+Electronic Energy after m062x optimization 4: -540.66360092 Hartrees
+
+Starting Frequency Calculation
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['14.0445' '59.1120' '60.0698' '109.2015' '198.0375' '222.5812' '270.8758'
+ '322.8460' '413.3917' '414.2595' '451.8319' '494.2953' '543.7216'
+ '551.5183']
+...Frequency calculation finished!
+
+ Success! No imaginary frequencies found. The structure is a true minimum.
+
+real	1092m53.616s
+user	89173m36.187s
+sys	1017m53.217s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/STB/1_DFT_opt/conformer0 ...
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Wed May 13 05:00:21 CDT 2026
+Exit status: 0
+Running epilogue for job 223294.wheat-r16-sch41
+Job 223294.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/6)

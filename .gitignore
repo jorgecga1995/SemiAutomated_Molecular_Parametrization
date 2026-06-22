@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment (if created inside project)
+venv/
+.env/
+
+# Common temp / cache directories
+*.log
+*.tmp
+*.swp
+*.swo
+
+# macOS / Linux cruft
+.DS_Store
+Thumbs.db
+
+# Tool caches
+.cache/

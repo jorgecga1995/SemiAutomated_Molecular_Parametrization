@@ -1,0 +1,43 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r15-cp35b at Mon May 25 01:26:56 CDT 2026
+Job ID: 229977.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/0_9/5_HAP/1_DFT_opt/conformer1
+Creating scratch directory: /p/work/jorgecga/tmp/229977.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/229977.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting Psi4 Python script...
+
+Starting optimization from CoordsBohrAfter25iter.xyz
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['10.9869' '21.3680' '29.9510' '51.0875' '60.0661' '65.5283' '86.1461'
+ '96.3179' '116.2854' '135.9852' '158.4210' '164.5272' '203.8656'
+ '237.2179' '263.9545' '278.4693' '304.7705' '318.0875' '328.0879'
+ '416.4421' '423.8969' '442.6988' '460.0346' '467.0685' '492.0285'
+ '498.4764' '544.9871' '565.5757']
+Optimizer: Optimization complete!
+Opt Done. Electronic Energy after optimization 0: -1186.01493553 Hartrees
+
+Starting Frequency Calculation
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['11.2285' '19.2479' '30.7016' '50.7094' '60.1514' '65.2717' '86.2194'
+ '96.3842' '116.3423' '136.0445' '158.7014' '164.6244' '203.7406'
+ '237.2021' '264.1495' '278.2487' '304.7232' '318.0036' '328.1850'
+ '416.2717' '423.7270' '443.2121' '460.1715' '466.8112' '492.1149'
+ '498.6416' '545.0890' '565.7640']
+...Frequency calculation finished!
+
+ Success! No imaginary frequencies found. The structure is a true minimum.
+
+real	235m17.847s
+user	18276m2.069s
+sys	443m31.255s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/0_9/5_HAP/1_DFT_opt/conformer1 ...
+cp: cannot stat '*.txt': No such file or directory
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Mon May 25 05:22:17 CDT 2026
+Exit status: 0
+Running epilogue for job 229977.wheat-r16-sch41
+Job 229977.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/19)

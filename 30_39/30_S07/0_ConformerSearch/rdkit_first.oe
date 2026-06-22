@@ -1,0 +1,15 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r19-cp2a at Thu May 14 09:38:36 CDT 2026
+Job ID: 224677.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/30_39/30_S07/0_ConformerSearch
+Creating scratch directory: /p/work/jorgecga/tmp/224677.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/224677.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting RDKit Python script...
+=>> PBS: job killed: walltime 14281 exceeded limit 14280
+Running epilogue for job 224677.wheat-r16-sch41
+Job 224677.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/230)

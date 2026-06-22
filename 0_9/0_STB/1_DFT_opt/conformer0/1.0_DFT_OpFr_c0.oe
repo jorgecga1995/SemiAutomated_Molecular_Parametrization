@@ -1,0 +1,36 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r6-cp39a at Mon May 11 16:55:23 CDT 2026
+Job ID: 222829.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/STB/1_DFT_opt/conformer0
+Creating scratch directory: /p/work/jorgecga/tmp/222829.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/222829.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting Psi4 Python script...
+
+Starting optimization from unique_conformer_0.xyz
+Optimizer: Optimization complete!
+Opt Done. Electronic Energy after optimization 0: -540.24238605 Hartrees
+
+Starting Frequency Calculation
+Warning: used thermodynamics relations inappropriate for low-frequency modes: ['21.5830' '59.0767' '75.9306' '80.3249' '207.0579' '224.4158' '287.2414'
+ '288.3039' '411.5902' '412.9391' '470.9549' '475.7629' '544.8738'
+ '549.5005']
+...Frequency calculation finished!
+
+ Success! No imaginary frequencies found. The structure is a true minimum.
+
+real	108m45.172s
+user	8421m33.993s
+sys	177m2.596s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/STB/1_DFT_opt/conformer0 ...
+cp: cannot stat '*.txt': No such file or directory
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Mon May 11 18:44:11 CDT 2026
+Exit status: 0
+Running epilogue for job 222829.wheat-r16-sch41
+Job 222829.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/133)

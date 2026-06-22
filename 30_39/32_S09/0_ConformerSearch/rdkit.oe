@@ -1,0 +1,142 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r26-cp46a at Thu May 14 09:40:46 CDT 2026
+Job ID: 224679.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/30_39/32_S09/0_ConformerSearch
+Creating scratch directory: /p/work/jorgecga/tmp/224679.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/224679.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting RDKit Python script...
+
+Molecule was read successfully!
+RDKit interpreted the overall charge as: 0
+Number of rotatable bonds in the molecule: 2
+SA_score: 7.923702880229352
+Generating isomers...
+Generated 4 stereoisomers.
+Generating conformers for all isomers...
+Isomer (SMILES: [H]C(=O)/C([H])=C(\[H])c1c([H])c([H])c2c(c1[H])C([H])=C([H])[C@@]1(O2)N(C([H])([H])[H])c2c([H])c([H])c([H])c([H])c2C1(C([H])([H])[H])C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.923702880229352
+Isomer (SMILES: [H]C(=O)/C([H])=C(\[H])c1c([H])c([H])c2c(c1[H])C([H])=C([H])[C@]1(O2)N(C([H])([H])[H])c2c([H])c([H])c([H])c([H])c2C1(C([H])([H])[H])C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.923702880229352
+Isomer (SMILES: [H]C(=O)/C([H])=C(/[H])c1c([H])c([H])c2c(c1[H])C([H])=C([H])[C@@]1(O2)N(C([H])([H])[H])c2c([H])c([H])c([H])c([H])c2C1(C([H])([H])[H])C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.923702880229352
+Isomer (SMILES: [H]C(=O)/C([H])=C(/[H])c1c([H])c([H])c2c(c1[H])C([H])=C([H])[C@]1(O2)N(C([H])([H])[H])c2c([H])c([H])c([H])c([H])c2C1(C([H])([H])[H])C([H])([H])[H]) generated, looking at conformers ...
+Isomer SA_score: 7.923702880229352
+Generated a total of 36 conformers across all isomers.
+Optimizing conformers with MMFF94...
+Optimization complete.
+
+Conformers Sorted by Energy (Lowest to Highest):
+--------------------------------------------------
+Rank       Conformer ID    Energy (kcal/mol)        
+--------------------------------------------------
+0          11              62.5259                  
+1          16              62.5733                  
+2          2               62.5733                  
+3          4               62.5733                  
+4          8               62.6211                  
+5          13              62.6211                  
+6          14              62.6586                  
+7          3               62.6586                  
+8          0               62.6586                  
+9          9               64.1431                  
+10         10              64.1431                  
+11         1               64.2755                  
+12         18              64.4214                  
+13         34              64.4214                  
+14         30              64.4214                  
+15         24              64.4214                  
+16         28              64.4270                  
+17         29              64.4270                  
+18         22              64.4272                  
+19         5               65.2042                  
+20         7               65.2042                  
+21         6               65.3750                  
+22         15              65.3750                  
+23         17              65.3750                  
+24         12              66.8116                  
+25         35              67.1147                  
+26         33              67.1147                  
+27         19              67.1147                  
+28         20              67.1147                  
+29         21              70.3083                  
+30         27              70.3087                  
+31         31              70.3151                  
+32         26              70.4519                  
+33         23              70.5297                  
+34         25              70.5308                  
+35         32              70.6467                  
+
+ 1 kcal/mol (= .043 eV) represents a 16% to 84% ocupancy difference at 300 K
+ 1 kcal/mol -> [1/99  @ 100K]    [16/84 @ 300K]     [22/78 @ 400K]
+ 2 kcal/mol -> [0/100 @ 100K]    [3/97  @ 300K]     [7/93  @ 400K]
+ 3 kcal/mol -> [0/100 @ 100K]    [1/99  @ 300K]     [2/98  @ 400K]
+
+Saving conformers to AllGeneratedConformers.sdf
+Saving conformers to individual .xyz files in 'GeneratedConformers_xyz/'
+
+Starting to prune the optimized conformers...
+Starting with 36 optimized conformers.
+Conformer 4 is similar to conformer 2 (RMSD: 0.0000)
+Conformer 0 is similar to conformer 3 (RMSD: 0.0002)
+Conformer 9 is similar to conformer 14 (RMSD: 0.4231)
+Conformer 10 is similar to conformer 14 (RMSD: 0.4231)
+Conformer 1 is similar to conformer 2 (RMSD: 0.4231)
+Conformer 30 is similar to conformer 34 (RMSD: 0.0001)
+Conformer 24 is similar to conformer 18 (RMSD: 0.0000)
+Conformer 29 is similar to conformer 28 (RMSD: 0.0000)
+Conformer 7 is similar to conformer 5 (RMSD: 0.0001)
+Conformer 17 is similar to conformer 15 (RMSD: 0.0000)
+Conformer 12 is similar to conformer 15 (RMSD: 0.4231)
+Conformer 33 is similar to conformer 35 (RMSD: 0.0001)
+Conformer 20 is similar to conformer 19 (RMSD: 0.0001)
+Conformer 31 is similar to conformer 27 (RMSD: 0.0122)
+Conformer 26 is similar to conformer 18 (RMSD: 0.4370)
+Conformer 23 is similar to conformer 18 (RMSD: 0.4223)
+Conformer 32 is similar to conformer 28 (RMSD: 0.4859)
+Pruned down to 19 unique conformers.
+Saving unique conformers to 'unique_conformers_xyz/'
+
+Boltzmann Probabilities at 298.15 K:
+--------------------------------------------------------------------------------
+                                 |T = 100 K            |T = 300 K           
+Conformer ID  Energy (kcal/mol)  |Prob. (%)  Accu. (%) |Prob. (%)  Accu. (%)
+--------------------------------------------------------------------------------
+0             62.5259             20.67      20.67      15.76      15.76    
+1             62.5733             16.27      36.94      14.55      30.31    
+2             62.5733             16.27      53.21      14.55      44.86    
+3             62.6211             12.79      66.01      13.43      58.28    
+4             62.6211             12.79      78.80      13.43      71.71    
+5             62.6586             10.60      89.40      12.61      84.32    
+6             62.6586             10.60      99.99      12.61      96.94    
+7             64.4214             0.00       100.00     0.66       97.59    
+8             64.4214             0.00       100.00     0.66       98.25    
+9             64.4270             0.00       100.00     0.65       98.90    
+10            64.4272             0.00       100.00     0.65       99.54    
+11            65.2042             0.00       100.00     0.18       99.72    
+12            65.3750             0.00       100.00     0.13       99.85    
+13            65.3750             0.00       100.00     0.13       99.99    
+14            67.1147             0.00       100.00     0.01       99.99    
+15            67.1147             0.00       100.00     0.01       100.00   
+16            70.3083             0.00       100.00     0.00       100.00   
+17            70.3087             0.00       100.00     0.00       100.00   
+18            70.5308             0.00       100.00     0.00       100.00   
+
+Done.
+
+
+
+real	0m4.204s
+user	0m3.319s
+sys	0m0.181s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/30_39/32_S09/0_ConformerSearch ...
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Thu May 14 09:40:52 CDT 2026
+Exit status: 0
+Running epilogue for job 224679.wheat-r16-sch41
+Job 224679.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/4)

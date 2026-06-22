@@ -1,0 +1,102 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r15-cp39b at Wed May 13 16:43:35 CDT 2026
+Job ID: 224360.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/10_19/15_ABI_b/0_ConformerSearch
+Creating scratch directory: /p/work/jorgecga/tmp/224360.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/224360.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting RDKit Python script...
+
+Molecule was read successfully!
+RDKit interpreted the overall charge as: -1
+Number of rotatable bonds in the molecule: 2
+SA_score: 6.681721536905841
+Generating isomers...
+Generated 2 stereoisomers.
+Generating conformers for all isomers...
+Isomer (SMILES: [H]/C(=C1\Sc2c([H])c([H])c([H])c([H])c2C1=O)c1c([H])c([H])c(C(=O)[O-])c([H])c1[H]) generated, looking at conformers ...
+Isomer SA_score: 6.681721536905841
+Isomer (SMILES: [H]/C(=C1/Sc2c([H])c([H])c([H])c([H])c2C1=O)c1c([H])c([H])c(C(=O)[O-])c([H])c1[H]) generated, looking at conformers ...
+Isomer SA_score: 6.681721536905841
+Generated a total of 18 conformers across all isomers.
+Optimizing conformers with MMFF94...
+Optimization complete.
+
+Conformers Sorted by Energy (Lowest to Highest):
+--------------------------------------------------
+Rank       Conformer ID    Energy (kcal/mol)        
+--------------------------------------------------
+0          15              80.8748                  
+1          11              80.8748                  
+2          16              80.8748                  
+3          12              80.8748                  
+4          14              80.8748                  
+5          9               80.8748                  
+6          10              80.8748                  
+7          17              80.8748                  
+8          13              80.8748                  
+9          8               86.2914                  
+10         2               86.2914                  
+11         7               86.2914                  
+12         4               86.2914                  
+13         6               86.2914                  
+14         3               86.2914                  
+15         5               86.2914                  
+16         0               86.2914                  
+17         1               86.2914                  
+
+ 1 kcal/mol (= .043 eV) represents a 16% to 84% ocupancy difference at 300 K
+ 1 kcal/mol -> [1/99  @ 100K]    [16/84 @ 300K]     [22/78 @ 400K]
+ 2 kcal/mol -> [0/100 @ 100K]    [3/97  @ 300K]     [7/93  @ 400K]
+ 3 kcal/mol -> [0/100 @ 100K]    [1/99  @ 300K]     [2/98  @ 400K]
+
+Saving conformers to AllGeneratedConformers.sdf
+Saving conformers to individual .xyz files in 'GeneratedConformers_xyz/'
+
+Starting to prune the optimized conformers...
+Starting with 18 optimized conformers.
+Conformer 16 is similar to conformer 15 (RMSD: 0.0000)
+Conformer 12 is similar to conformer 11 (RMSD: 0.0000)
+Conformer 14 is similar to conformer 15 (RMSD: 0.0000)
+Conformer 9 is similar to conformer 15 (RMSD: 0.0000)
+Conformer 10 is similar to conformer 15 (RMSD: 0.0000)
+Conformer 17 is similar to conformer 11 (RMSD: 0.0000)
+Conformer 13 is similar to conformer 11 (RMSD: 0.0000)
+Conformer 7 is similar to conformer 8 (RMSD: 0.0000)
+Conformer 4 is similar to conformer 2 (RMSD: 0.0000)
+Conformer 6 is similar to conformer 2 (RMSD: 0.0000)
+Conformer 3 is similar to conformer 2 (RMSD: 0.0000)
+Conformer 5 is similar to conformer 8 (RMSD: 0.0000)
+Conformer 0 is similar to conformer 2 (RMSD: 0.0000)
+Conformer 1 is similar to conformer 8 (RMSD: 0.0000)
+Pruned down to 4 unique conformers.
+Saving unique conformers to 'unique_conformers_xyz/'
+
+Boltzmann Probabilities at 298.15 K:
+--------------------------------------------------------------------------------
+                                 |T = 100 K            |T = 300 K           
+Conformer ID  Energy (kcal/mol)  |Prob. (%)  Accu. (%) |Prob. (%)  Accu. (%)
+--------------------------------------------------------------------------------
+0             80.8748             50.00      50.00      49.99      49.99    
+1             80.8748             50.00      100.00     49.99      99.99    
+2             86.2914             0.00       100.00     0.01       99.99    
+3             86.2914             0.00       100.00     0.01       100.00   
+
+Done.
+
+
+
+real	0m1.668s
+user	0m0.703s
+sys	0m0.224s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/10_19/15_ABI_b/0_ConformerSearch ...
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Wed May 13 16:43:38 CDT 2026
+Exit status: 0
+Running epilogue for job 224360.wheat-r16-sch41
+Job 224360.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/362)

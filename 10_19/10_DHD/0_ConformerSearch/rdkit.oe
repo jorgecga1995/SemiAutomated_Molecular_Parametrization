@@ -1,0 +1,226 @@
+Prologue starting, please wait.
+Prologue complete. Job starting.
+Job started on wheat-r16-cp18a at Wed May 13 14:50:09 CDT 2026
+Job ID: 224238.wheat-r16-sch41
+Submission directory: /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/10_19/10_DHD/0_ConformerSearch
+Creating scratch directory: /p/work/jorgecga/tmp/224238.wheat-r16-sch41
+Copying input files to scratch...
+Changing to scratch directory...
+Current working directory: /p/work/jorgecga/tmp/224238.wheat-r16-sch41
+loading cse modules and activating psi4_env...
+Starting RDKit Python script...
+
+Molecule was read successfully!
+RDKit interpreted the overall charge as: 0
+Number of rotatable bonds in the molecule: 4
+SA_score: 7.403222624496953
+Generating isomers...
+Generated 1 stereoisomers.
+Generating conformers for all isomers...
+Isomer (SMILES: [H]Oc1sc(C([H])([H])[H])c(-c2c(-c3c(C([H])([H])[H])sc(O[H])c3[H])c3c([H])c([H])c([H])c([H])c3c3c([H])c([H])c([H])c([H])c23)c1[H]) generated, looking at conformers ...
+Isomer SA_score: 7.403222624496953
+Generated a total of 81 conformers across all isomers.
+Optimizing conformers with MMFF94...
+Optimization complete.
+
+Conformers Sorted by Energy (Lowest to Highest):
+--------------------------------------------------
+Rank       Conformer ID    Energy (kcal/mol)        
+--------------------------------------------------
+0          26              69.7412                  
+1          4               69.7412                  
+2          35              69.7412                  
+3          66              69.7412                  
+4          21              69.7412                  
+5          1               69.7412                  
+6          68              69.7412                  
+7          23              69.7412                  
+8          19              69.7412                  
+9          76              69.7493                  
+10         25              69.8027                  
+11         52              70.3408                  
+12         39              70.3411                  
+13         14              72.9916                  
+14         8               72.9916                  
+15         6               72.9916                  
+16         77              72.9916                  
+17         31              72.9916                  
+18         55              72.9916                  
+19         47              72.9916                  
+20         53              72.9916                  
+21         62              72.9916                  
+22         69              72.9916                  
+23         24              72.9916                  
+24         11              72.9916                  
+25         18              72.9916                  
+26         63              72.9916                  
+27         74              72.9916                  
+28         13              72.9916                  
+29         45              72.9916                  
+30         36              72.9916                  
+31         67              72.9916                  
+32         73              72.9916                  
+33         0               72.9916                  
+34         44              72.9916                  
+35         2               72.9916                  
+36         30              72.9916                  
+37         59              72.9916                  
+38         41              72.9916                  
+39         42              72.9916                  
+40         34              72.9916                  
+41         78              72.9916                  
+42         15              72.9916                  
+43         7               72.9916                  
+44         56              72.9916                  
+45         64              73.2106                  
+46         29              73.2106                  
+47         79              73.2106                  
+48         60              73.2106                  
+49         17              73.2106                  
+50         16              73.2106                  
+51         37              73.2106                  
+52         70              73.2107                  
+53         22              73.2107                  
+54         28              73.2107                  
+55         71              73.2108                  
+56         51              73.2137                  
+57         40              73.3651                  
+58         57              76.2219                  
+59         5               76.2219                  
+60         50              76.2219                  
+61         43              76.2219                  
+62         10              76.2219                  
+63         38              76.2219                  
+64         58              76.2219                  
+65         72              76.2219                  
+66         27              76.2219                  
+67         9               76.2219                  
+68         49              76.2229                  
+69         54              76.2233                  
+70         33              76.2276                  
+71         48              76.3566                  
+72         32              76.9853                  
+73         46              76.9853                  
+74         65              76.9853                  
+75         20              76.9853                  
+76         75              76.9853                  
+77         12              76.9853                  
+78         61              76.9853                  
+79         80              76.9853                  
+80         3               76.9854                  
+
+ 1 kcal/mol (= .043 eV) represents a 16% to 84% ocupancy difference at 300 K
+ 1 kcal/mol -> [1/99  @ 100K]    [16/84 @ 300K]     [22/78 @ 400K]
+ 2 kcal/mol -> [0/100 @ 100K]    [3/97  @ 300K]     [7/93  @ 400K]
+ 3 kcal/mol -> [0/100 @ 100K]    [1/99  @ 300K]     [2/98  @ 400K]
+
+Saving conformers to AllGeneratedConformers.sdf
+Saving conformers to individual .xyz files in 'GeneratedConformers_xyz/'
+
+Starting to prune the optimized conformers...
+Starting with 81 optimized conformers.
+Conformer 35 is similar to conformer 26 (RMSD: 0.0000)
+Conformer 66 is similar to conformer 26 (RMSD: 0.0000)
+Conformer 21 is similar to conformer 4 (RMSD: 0.0001)
+Conformer 1 is similar to conformer 4 (RMSD: 0.0000)
+Conformer 68 is similar to conformer 4 (RMSD: 0.0001)
+Conformer 23 is similar to conformer 26 (RMSD: 0.0001)
+Conformer 19 is similar to conformer 26 (RMSD: 0.0001)
+Conformer 76 is similar to conformer 26 (RMSD: 0.0406)
+Conformer 25 is similar to conformer 4 (RMSD: 0.1582)
+Conformer 39 is similar to conformer 52 (RMSD: 0.0083)
+Conformer 14 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 8 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 6 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 77 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 31 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 55 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 47 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 53 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 62 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 69 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 24 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 11 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 18 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 63 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 74 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 13 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 45 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 36 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 67 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 73 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 0 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 44 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 2 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 30 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 59 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 41 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 42 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 34 is similar to conformer 52 (RMSD: 0.2726)
+Conformer 78 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 15 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 7 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 56 is similar to conformer 52 (RMSD: 0.2724)
+Conformer 64 is similar to conformer 4 (RMSD: 0.2692)
+Conformer 29 is similar to conformer 26 (RMSD: 0.2693)
+Conformer 79 is similar to conformer 26 (RMSD: 0.2693)
+Conformer 60 is similar to conformer 26 (RMSD: 0.2695)
+Conformer 17 is similar to conformer 4 (RMSD: 0.2694)
+Conformer 16 is similar to conformer 4 (RMSD: 0.2696)
+Conformer 37 is similar to conformer 4 (RMSD: 0.2698)
+Conformer 70 is similar to conformer 4 (RMSD: 0.2674)
+Conformer 22 is similar to conformer 4 (RMSD: 0.2666)
+Conformer 28 is similar to conformer 4 (RMSD: 0.2668)
+Conformer 71 is similar to conformer 4 (RMSD: 0.2728)
+Conformer 51 is similar to conformer 4 (RMSD: 0.2828)
+Conformer 40 is similar to conformer 26 (RMSD: 0.3017)
+Conformer 57 is similar to conformer 4 (RMSD: 0.4289)
+Conformer 5 is similar to conformer 26 (RMSD: 0.4289)
+Conformer 50 is similar to conformer 4 (RMSD: 0.4289)
+Conformer 43 is similar to conformer 4 (RMSD: 0.4289)
+Conformer 10 is similar to conformer 4 (RMSD: 0.4289)
+Conformer 38 is similar to conformer 26 (RMSD: 0.4289)
+Conformer 58 is similar to conformer 26 (RMSD: 0.4289)
+Conformer 72 is similar to conformer 4 (RMSD: 0.4289)
+Conformer 27 is similar to conformer 26 (RMSD: 0.4290)
+Conformer 9 is similar to conformer 26 (RMSD: 0.4288)
+Conformer 49 is similar to conformer 4 (RMSD: 0.4249)
+Conformer 54 is similar to conformer 26 (RMSD: 0.4335)
+Conformer 33 is similar to conformer 26 (RMSD: 0.4290)
+Conformer 48 is similar to conformer 4 (RMSD: 0.3758)
+Conformer 32 is similar to conformer 52 (RMSD: 0.3596)
+Conformer 46 is similar to conformer 52 (RMSD: 0.3597)
+Conformer 65 is similar to conformer 52 (RMSD: 0.3596)
+Conformer 20 is similar to conformer 52 (RMSD: 0.3596)
+Conformer 75 is similar to conformer 52 (RMSD: 0.3597)
+Conformer 12 is similar to conformer 52 (RMSD: 0.3597)
+Conformer 61 is similar to conformer 52 (RMSD: 0.3597)
+Conformer 80 is similar to conformer 52 (RMSD: 0.3597)
+Conformer 3 is similar to conformer 52 (RMSD: 0.3597)
+Pruned down to 3 unique conformers.
+Saving unique conformers to 'unique_conformers_xyz/'
+
+Boltzmann Probabilities at 298.15 K:
+--------------------------------------------------------------------------------
+                                 |T = 100 K            |T = 300 K           
+Conformer ID  Energy (kcal/mol)  |Prob. (%)  Accu. (%) |Prob. (%)  Accu. (%)
+--------------------------------------------------------------------------------
+0             69.7412             48.81      48.81      42.27      42.27    
+1             69.7412             48.81      97.61      42.27      84.54    
+2             70.3408             2.39       100.00     15.46      100.00   
+
+Done.
+
+
+
+real	0m5.907s
+user	0m5.020s
+sys	0m0.193s
+Copying output files back to /p/home/jorgecga/SwitchesFor-aRuCl3/AfterMay8_2026/10_19/10_DHD/0_ConformerSearch ...
+Deactivating conda environment...
+Cleaning up scratch directory...
+Job finished at Wed May 13 14:50:16 CDT 2026
+Exit status: 0
+Running epilogue for job 224238.wheat-r16-sch41
+Job 224238.wheat-r16-sch41 has concluded.
+Connection successfully activated (D-Bus active path: /org/freedesktop/NetworkManager/ActiveConnection/224)

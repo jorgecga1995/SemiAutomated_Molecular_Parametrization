@@ -1,0 +1,80 @@
+
+Molecule was read successfully!
+RDKit interpreted the overall charge as: 0
+Number of rotatable bonds in the molecule: 0
+Generating isomers...
+Generated 2 stereoisomers.
+Generating conformers for all isomers...
+Isomer (SMILES: [H]c1c([H])c([H])c2c(c1[H])/C(=C1/c3c([H])c([H])c([H])c([H])c3C([H])([H])C1([H])[H])C([H])([H])C2([H])[H]) generated, looking at conformers ...
+Isomer (SMILES: [H]c1c([H])c([H])c2c(c1[H])/C(=C1\c3c([H])c([H])c([H])c([H])c3C([H])([H])C1([H])[H])C([H])([H])C2([H])[H]) generated, looking at conformers ...
+Generated a total of 20 conformers across all isomers.
+Optimizing conformers with MMFF94...
+Optimization complete.
+
+Conformers Sorted by Energy (Lowest to Highest):
+--------------------------------------------------
+Rank       Conformer ID    Energy (kcal/mol)        
+--------------------------------------------------
+0          4               61.2237                  
+1          9               61.2237                  
+2          5               61.2237                  
+3          2               61.2237                  
+4          3               61.2237                  
+5          8               61.2237                  
+6          1               61.2237                  
+7          0               61.2237                  
+8          6               61.2237                  
+9          7               61.2237                  
+10         16              63.5222                  
+11         10              63.5222                  
+12         15              63.5222                  
+13         17              63.5222                  
+14         19              63.5222                  
+15         13              63.5222                  
+16         12              63.5222                  
+17         14              63.5222                  
+18         11              63.5222                  
+19         18              63.5222                  
+
+ 1 kcal/mol (= .043 eV) represents a 16% to 84% ocupancy difference at 300 K
+ 1 kcal/mol -> [1/99  @ 100K]    [16/84 @ 300K]     [22/78 @ 400K]
+ 2 kcal/mol -> [0/100 @ 100K]    [3/97  @ 300K]     [7/93  @ 400K]
+ 3 kcal/mol -> [0/100 @ 100K]    [1/99  @ 300K]     [2/98  @ 400K]
+
+Saving conformers to AllGeneratedConformers.sdf
+Saving conformers to individual .xyz files in 'GeneratedConformers_xyz/'
+
+Starting to prune the optimized conformers...
+Starting with 20 optimized conformers.
+Conformer 5 is similar to conformer 4 (RMSD: 0.0001)
+Conformer 2 is similar to conformer 4 (RMSD: 0.0000)
+Conformer 3 is similar to conformer 9 (RMSD: 0.0000)
+Conformer 8 is similar to conformer 9 (RMSD: 0.0001)
+Conformer 1 is similar to conformer 4 (RMSD: 0.0000)
+Conformer 0 is similar to conformer 9 (RMSD: 0.0001)
+Conformer 6 is similar to conformer 4 (RMSD: 0.0001)
+Conformer 7 is similar to conformer 4 (RMSD: 0.0001)
+Conformer 15 is similar to conformer 16 (RMSD: 0.0000)
+Conformer 17 is similar to conformer 10 (RMSD: 0.0000)
+Conformer 19 is similar to conformer 16 (RMSD: 0.0001)
+Conformer 13 is similar to conformer 10 (RMSD: 0.0001)
+Conformer 12 is similar to conformer 16 (RMSD: 0.0001)
+Conformer 14 is similar to conformer 16 (RMSD: 0.0001)
+Conformer 11 is similar to conformer 16 (RMSD: 0.0001)
+Conformer 18 is similar to conformer 10 (RMSD: 0.0002)
+Pruned down to 4 unique conformers.
+Saving unique conformers to 'unique_conformers_xyz/'
+
+Boltzmann Probabilities at 298.15 K:
+--------------------------------------------------------------------------------
+                                 |T = 100 K            |T = 300 K           
+Conformer ID  Energy (kcal/mol)  |Prob. (%)  Accu. (%) |Prob. (%)  Accu. (%)
+--------------------------------------------------------------------------------
+0             61.2237             50.00      50.00      48.96      48.96    
+1             61.2237             50.00      100.00     48.96      97.93    
+2             63.5222             0.00       100.00     1.04       98.96    
+3             63.5222             0.00       100.00     1.04       100.00   
+
+Done.
+
+
