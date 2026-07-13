@@ -62,7 +62,7 @@ This step is currently run manually per molecule inside `0_ConformerSearch`.
     1. Takes a SMILES string, `.mol`, or `.mol2` file.
     2. Generates isomers and conformers using `RDKit`, reporting interpreted charge and `SA_score`.
     3. Minimizes geometry with MMFF94 or UFF.
-    4. Prunes similar conformers (RMSD < 0.5 Å) and saves unique geometries to /unique_conformers_xyz/.
+    4. Prunes similar conformers (RMSD < 0.5 Å) and saves unique geometries to `/unique_conformers_xyz/`.
     5. Reports conformer energies (kcal/mol) and population analysis (100K and 300K).
 
 ---
@@ -90,7 +90,7 @@ Optimizes the selected conformers using the `M06-2X/6-311G(2df,p)` level of theo
 ---
 ### Step 2: ESP Calculations
 
-Calculates the Electrostatic Potential (ESP) at the optimized geometries using MP2/aug-cc-pVTZ.   
+Calculates the Electrostatic Potential (ESP) at the optimized geometries using `MP2/aug-cc-pVTZ`.   
 * `4_CreateMP2_ESP_input.py`: Creates inputs in 3_Parametrization/Gauss-Ante/conformer{ID}/.
 * `5_MP2_ESP_SubmissionCopyingCHK.py`: Submits the ESP jobs.
 
